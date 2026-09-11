@@ -1,0 +1,43 @@
+name: H4 Scanner
+
+on:
+  schedule:
+    # Every 4 hours at :05 (after 4H candle close)
+    - cron: '5 */4 * * *'
+  workflow_dispatch:
+  repository_dispatch:
+    types: [run-h4]
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests python-dateutil websocket-client
+
+      - name: Run H4 scanner
+        env:
+          DERIV_TOKEN: ${{ secrets.DERIV_TOKEN }}
+          DERIV_APP_ID: ${{ secrets.DERIV_APP_ID }}
+          DERIV_ACCOUNT: ${{ secrets.DERIV_ACCOUNT }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+        run: python bot.py --mode h4
+
+      - name: Commit state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase --autostash origin main || true
+          git add state/ data/ logs/ || true
+          git diff --staged --quiet || git commit -m "H4 scan: $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push || true
