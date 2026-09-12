@@ -1,0 +1,68 @@
+name: H4 Scanner
+
+on:
+  schedule:
+    - cron: '5 */4 * * *'
+  workflow_dispatch:
+  repository_dispatch:
+    types: [run-h4]
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests python-dateutil websocket-client
+
+      - name: Run H4 scanner
+        env:
+          DERIV_TOKEN: ${{ secrets.DERIV_TOKEN }}
+          DERIV_APP_ID: ${{ secrets.DERIV_APP_ID }}
+          DERIV_ACCOUNT: ${{ secrets.DERIV_ACCOUNT }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+        run: python bot.py --mode h4
+
+      - name: Show what was written
+        run: |
+          echo "=== data/ ==="
+          ls -la data/ 2>/dev/null || echo "data/ missing"
+          if [ -f data/state.json ]; then
+            echo "state.json size: $(wc -c < data/state.json) bytes"
+            head -c 500 data/state.json
+            echo ""
+          else
+            echo "ERROR: data/state.json does not exist after H4"
+          fi
+
+      - name: Commit state
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/travis-global/SMC.git
+          git pull --rebase --autostash origin main || true
+          mkdir -p data logs
+          git add -f data/logs 2>/dev/null || true
+          git add -f data/ 2>/dev/null || true
+          git add -f logs/ 2>/dev/null || true
+          git status
+          if git diff --staged --quiet; then
+            echo "Nothing new to commit"
+          else
+            git commit -m "H4 scan: $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push origin HEAD:main
+          fi
