@@ -10,8 +10,8 @@
           "top": 1.1397,
           "bottom": 1.13747,
           "time": "2026-07-29 12:00:00",
-          "index": 10,
-          "break_index": 11,
+          "index": 8,
+          "break_index": 9,
           "swing_price": 1.14052,
           "mitigated": true,
           "fresh": false
@@ -21,8 +21,8 @@
           "top": 1.14567,
           "bottom": 1.14344,
           "time": "2026-07-30 04:00:00",
-          "index": 14,
-          "break_index": 15,
+          "index": 12,
+          "break_index": 13,
           "swing_price": 1.14749,
           "mitigated": true,
           "fresh": false
@@ -32,8 +32,8 @@
           "top": 1.15187,
           "bottom": 1.14553,
           "time": "2026-07-31 12:00:00",
-          "index": 22,
-          "break_index": 24,
+          "index": 20,
+          "break_index": 22,
           "swing_price": 1.1537,
           "mitigated": true,
           "fresh": false
@@ -43,8 +43,8 @@
           "top": 1.15351,
           "bottom": 1.15005,
           "time": "2026-08-03 12:00:00",
-          "index": 28,
-          "break_index": 42,
+          "index": 26,
+          "break_index": 40,
           "swing_price": 1.15559,
           "mitigated": true,
           "fresh": false
@@ -54,8 +54,8 @@
           "top": 1.15257,
           "bottom": 1.15148,
           "time": "2026-08-06 16:00:00",
-          "index": 47,
-          "break_index": 53,
+          "index": 45,
+          "break_index": 51,
           "swing_price": 1.15597,
           "mitigated": true,
           "fresh": false
@@ -65,8 +65,8 @@
           "top": 1.15629,
           "bottom": 1.1534,
           "time": "2026-08-12 12:00:00",
-          "index": 70,
-          "break_index": 71,
+          "index": 68,
+          "break_index": 69,
           "swing_price": 1.15323,
           "mitigated": true,
           "fresh": false
@@ -76,8 +76,8 @@
           "top": 1.15629,
           "bottom": 1.1534,
           "time": "2026-08-12 12:00:00",
-          "index": 70,
-          "break_index": 72,
+          "index": 68,
+          "break_index": 70,
           "swing_price": 1.15315,
           "mitigated": true,
           "fresh": false
@@ -87,8 +87,8 @@
           "top": 1.15278,
           "bottom": 1.15119,
           "time": "2026-08-13 04:00:00",
-          "index": 74,
-          "break_index": 80,
+          "index": 72,
+          "break_index": 78,
           "swing_price": 1.15484,
           "mitigated": true,
           "fresh": false
@@ -98,8 +98,8 @@
           "top": 1.15278,
           "bottom": 1.15119,
           "time": "2026-08-13 04:00:00",
-          "index": 74,
-          "break_index": 81,
+          "index": 72,
+          "break_index": 79,
           "swing_price": 1.15629,
           "mitigated": true,
           "fresh": false
@@ -109,8 +109,8 @@
           "top": 1.15278,
           "bottom": 1.15119,
           "time": "2026-08-13 04:00:00",
-          "index": 74,
-          "break_index": 85,
+          "index": 72,
+          "break_index": 83,
           "swing_price": 1.15809,
           "mitigated": true,
           "fresh": false
@@ -120,8 +120,8 @@
           "top": 1.15775,
           "bottom": 1.15667,
           "time": "2026-08-18 04:00:00",
-          "index": 92,
-          "break_index": 100,
+          "index": 90,
+          "break_index": 98,
           "swing_price": 1.16141,
           "mitigated": true,
           "fresh": false
@@ -131,8 +131,8 @@
           "top": 1.15873,
           "bottom": 1.15702,
           "time": "2026-08-19 00:00:00",
-          "index": 97,
-          "break_index": 98,
+          "index": 95,
+          "break_index": 96,
           "swing_price": 1.15884,
           "mitigated": true,
           "fresh": false
@@ -142,8 +142,8 @@
           "top": 1.17113,
           "bottom": 1.16895,
           "time": "2026-08-21 08:00:00",
-          "index": 111,
-          "break_index": 117,
+          "index": 109,
+          "break_index": 115,
           "swing_price": 1.16693,
           "mitigated": true,
           "fresh": false
@@ -153,8 +153,8 @@
           "top": 1.17113,
           "bottom": 1.16895,
           "time": "2026-08-21 08:00:00",
-          "index": 111,
-          "break_index": 207,
+          "index": 109,
+          "break_index": 205,
           "swing_price": 1.15702,
           "mitigated": true,
           "fresh": false
@@ -164,8 +164,8 @@
           "top": 1.17113,
           "bottom": 1.16895,
           "time": "2026-08-21 08:00:00",
-          "index": 111,
-          "break_index": 208,
+          "index": 109,
+          "break_index": 206,
           "swing_price": 1.15667,
           "mitigated": true,
           "fresh": false
@@ -175,8 +175,8 @@
           "top": 1.16873,
           "bottom": 1.16768,
           "time": "2026-08-24 00:00:00",
-          "index": 115,
-          "break_index": 116,
+          "index": 113,
+          "break_index": 114,
           "swing_price": 1.16691,
           "mitigated": true,
           "fresh": false
@@ -186,8 +186,8 @@
           "top": 1.16796,
           "bottom": 1.16713,
           "time": "2026-08-25 20:00:00",
-          "index": 126,
-          "break_index": 130,
+          "index": 124,
+          "break_index": 128,
           "swing_price": 1.16512,
           "mitigated": true,
           "fresh": false
@@ -197,8 +197,8 @@
           "top": 1.16595,
           "bottom": 1.16536,
           "time": "2026-08-27 00:00:00",
-          "index": 133,
-          "break_index": 135,
+          "index": 131,
+          "break_index": 133,
           "swing_price": 1.16421,
           "mitigated": true,
           "fresh": false
@@ -208,8 +208,8 @@
           "top": 1.166,
           "bottom": 1.16397,
           "time": "2026-08-27 12:00:00",
-          "index": 136,
-          "break_index": 142,
+          "index": 134,
+          "break_index": 140,
           "swing_price": 1.16366,
           "mitigated": true,
           "fresh": false
@@ -219,8 +219,8 @@
           "top": 1.16245,
           "bottom": 1.16057,
           "time": "2026-09-01 00:00:00",
-          "index": 151,
-          "break_index": 159,
+          "index": 149,
+          "break_index": 157,
           "swing_price": 1.15779,
           "mitigated": true,
           "fresh": false
@@ -230,8 +230,8 @@
           "top": 1.1585,
           "bottom": 1.15664,
           "time": "2026-09-02 04:00:00",
-          "index": 158,
-          "break_index": 167,
+          "index": 156,
+          "break_index": 165,
           "swing_price": 1.16245,
           "mitigated": true,
           "fresh": false
@@ -241,8 +241,8 @@
           "top": 1.16267,
           "bottom": 1.15853,
           "time": "2026-09-04 12:00:00",
-          "index": 172,
-          "break_index": 189,
+          "index": 170,
+          "break_index": 187,
           "swing_price": 1.16413,
           "mitigated": true,
           "fresh": false
@@ -252,8 +252,8 @@
           "top": 1.1619,
           "bottom": 1.1608,
           "time": "2026-09-08 08:00:00",
-          "index": 183,
-          "break_index": 188,
+          "index": 181,
+          "break_index": 186,
           "swing_price": 1.16359,
           "mitigated": true,
           "fresh": false
@@ -263,8 +263,8 @@
           "top": 1.16542,
           "bottom": 1.16202,
           "time": "2026-09-09 12:00:00",
-          "index": 190,
-          "break_index": 199,
+          "index": 188,
+          "break_index": 197,
           "swing_price": 1.1608,
           "mitigated": true,
           "fresh": false
@@ -274,8 +274,8 @@
           "top": 1.16542,
           "bottom": 1.16202,
           "time": "2026-09-09 12:00:00",
-          "index": 190,
-          "break_index": 205,
+          "index": 188,
+          "break_index": 203,
           "swing_price": 1.15853,
           "mitigated": true,
           "fresh": false
@@ -285,8 +285,8 @@
           "top": 1.16542,
           "bottom": 1.16202,
           "time": "2026-09-09 12:00:00",
-          "index": 190,
-          "break_index": 206,
+          "index": 188,
+          "break_index": 204,
           "swing_price": 1.15664,
           "mitigated": true,
           "fresh": false
@@ -296,8 +296,8 @@
           "top": 1.16418,
           "bottom": 1.16358,
           "time": "2026-09-10 04:00:00",
-          "index": 194,
-          "break_index": 195,
+          "index": 192,
+          "break_index": 193,
           "swing_price": 1.16202,
           "mitigated": true,
           "fresh": false
@@ -307,8 +307,8 @@
           "top": 1.16288,
           "bottom": 1.16091,
           "time": "2026-09-10 16:00:00",
-          "index": 197,
-          "break_index": 201,
+          "index": 195,
+          "break_index": 199,
           "swing_price": 1.15924,
           "mitigated": true,
           "fresh": false
@@ -322,688 +322,645 @@
               "type": "SH",
               "price": 1.15634,
               "time": "2026-09-14 16:00:00",
-              "index": 209,
+              "index": 207,
               "label": "LH"
             },
             {
               "type": "SH",
               "price": 1.15517,
               "time": "2026-09-15 12:00:00",
-              "index": 214,
+              "index": 212,
               "label": "LH"
             }
           ],
           "slope": -0.00023399999999997866,
-          "intercept": 1.2052459999999954,
-          "start_index": 209,
-          "end_index": 214,
+          "intercept": 1.2047779999999955,
+          "start_index": 207,
+          "end_index": 212,
           "touches": [
-            216
+            214,
+            215
           ],
-          "touch_count": 3,
-          "status": "confirmed",
-          "broken": false,
+          "touch_count": 4,
+          "status": "broken",
+          "broken": true,
           "valid": true
         }
       ],
-      "confirmed_trendlines": [
-        {
-          "type": "Downtrend",
-          "points": [
-            {
-              "type": "SH",
-              "price": 1.15634,
-              "time": "2026-09-14 16:00:00",
-              "index": 209,
-              "label": "LH"
-            },
-            {
-              "type": "SH",
-              "price": 1.15517,
-              "time": "2026-09-15 12:00:00",
-              "index": 214,
-              "label": "LH"
-            }
-          ],
-          "slope": -0.00023399999999997866,
-          "intercept": 1.2052459999999954,
-          "start_index": 209,
-          "end_index": 214,
-          "touches": [
-            216
-          ],
-          "touch_count": 3,
-          "status": "confirmed",
-          "broken": false,
-          "valid": true
-        }
-      ],
+      "confirmed_trendlines": [],
       "structure": [
-        {
-          "type": "SL",
-          "price": 1.13534,
-          "time": "2026-07-28 08:00:00",
-          "index": 3,
-          "label": "SL"
-        },
         {
           "type": "SH",
           "price": 1.14052,
           "time": "2026-07-28 16:00:00",
-          "index": 5,
+          "index": 3,
           "label": "SH"
         },
         {
           "type": "SL",
           "price": 1.13747,
           "time": "2026-07-29 12:00:00",
-          "index": 10,
-          "label": "HL"
+          "index": 8,
+          "label": "SL"
         },
         {
           "type": "SH",
           "price": 1.14749,
           "time": "2026-07-29 20:00:00",
-          "index": 12,
+          "index": 10,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 1.14344,
           "time": "2026-07-30 04:00:00",
-          "index": 14,
+          "index": 12,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 1.1537,
           "time": "2026-07-30 12:00:00",
-          "index": 16,
+          "index": 14,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 1.14553,
           "time": "2026-07-31 12:00:00",
-          "index": 22,
+          "index": 20,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 1.15559,
           "time": "2026-08-03 00:00:00",
-          "index": 25,
+          "index": 23,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 1.15005,
           "time": "2026-08-03 12:00:00",
-          "index": 28,
+          "index": 26,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 1.15597,
           "time": "2026-08-06 00:00:00",
-          "index": 43,
+          "index": 41,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 1.15148,
           "time": "2026-08-06 16:00:00",
-          "index": 47,
+          "index": 45,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 1.15809,
           "time": "2026-08-07 12:00:00",
-          "index": 52,
+          "index": 50,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 1.15315,
           "time": "2026-08-11 08:00:00",
-          "index": 63,
+          "index": 61,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 1.15484,
           "time": "2026-08-11 12:00:00",
-          "index": 64,
+          "index": 62,
           "label": "LH"
         },
         {
           "type": "SL",
           "price": 1.15323,
           "time": "2026-08-12 04:00:00",
-          "index": 68,
+          "index": 66,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 1.15629,
           "time": "2026-08-12 12:00:00",
-          "index": 70,
+          "index": 68,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 1.15119,
           "time": "2026-08-13 04:00:00",
-          "index": 74,
+          "index": 72,
           "label": "LL"
         },
         {
           "type": "SH",
           "price": 1.16141,
           "time": "2026-08-17 08:00:00",
-          "index": 87,
+          "index": 85,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 1.15667,
           "time": "2026-08-18 04:00:00",
-          "index": 92,
+          "index": 90,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 1.15884,
           "time": "2026-08-18 12:00:00",
-          "index": 94,
+          "index": 92,
           "label": "LH"
         },
         {
           "type": "SL",
           "price": 1.15702,
           "time": "2026-08-19 00:00:00",
-          "index": 97,
+          "index": 95,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 1.17106,
           "time": "2026-08-20 08:00:00",
-          "index": 105,
+          "index": 103,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 1.16693,
           "time": "2026-08-20 16:00:00",
-          "index": 107,
+          "index": 105,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 1.17113,
           "time": "2026-08-21 08:00:00",
-          "index": 111,
+          "index": 109,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 1.16691,
           "time": "2026-08-21 12:00:00",
-          "index": 112,
+          "index": 110,
           "label": "LL"
         },
         {
           "type": "SH",
           "price": 1.16873,
           "time": "2026-08-24 00:00:00",
-          "index": 115,
+          "index": 113,
           "label": "LH"
         },
         {
           "type": "SL",
           "price": 1.16512,
           "time": "2026-08-25 04:00:00",
-          "index": 122,
+          "index": 120,
           "label": "LL"
         },
         {
           "type": "SH",
           "price": 1.16796,
           "time": "2026-08-25 20:00:00",
-          "index": 126,
+          "index": 124,
           "label": "LH"
         },
         {
           "type": "SL",
           "price": 1.16421,
           "time": "2026-08-26 12:00:00",
-          "index": 130,
+          "index": 128,
           "label": "LL"
         },
         {
           "type": "SH",
           "price": 1.16595,
           "time": "2026-08-27 00:00:00",
-          "index": 133,
+          "index": 131,
           "label": "LH"
         },
         {
           "type": "SL",
           "price": 1.16366,
           "time": "2026-08-27 08:00:00",
-          "index": 135,
+          "index": 133,
           "label": "LL"
         },
         {
           "type": "SH",
           "price": 1.166,
           "time": "2026-08-27 12:00:00",
-          "index": 136,
+          "index": 134,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 1.15779,
           "time": "2026-08-28 16:00:00",
-          "index": 143,
+          "index": 141,
           "label": "LL"
         },
         {
           "type": "SH",
           "price": 1.16245,
           "time": "2026-09-01 00:00:00",
-          "index": 151,
+          "index": 149,
           "label": "LH"
         },
         {
           "type": "SL",
           "price": 1.15664,
           "time": "2026-09-02 04:00:00",
-          "index": 158,
+          "index": 156,
           "label": "LL"
         },
         {
           "type": "SH",
           "price": 1.16413,
           "time": "2026-09-03 16:00:00",
-          "index": 167,
+          "index": 165,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 1.15853,
           "time": "2026-09-04 12:00:00",
-          "index": 172,
+          "index": 170,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 1.16359,
           "time": "2026-09-07 08:00:00",
-          "index": 177,
+          "index": 175,
           "label": "LH"
         },
         {
           "type": "SL",
           "price": 1.1608,
           "time": "2026-09-08 08:00:00",
-          "index": 183,
+          "index": 181,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 1.16542,
           "time": "2026-09-09 12:00:00",
-          "index": 190,
+          "index": 188,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 1.16202,
           "time": "2026-09-09 12:00:00",
-          "index": 190,
+          "index": 188,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 1.16418,
           "time": "2026-09-10 04:00:00",
-          "index": 194,
+          "index": 192,
           "label": "LH"
         },
         {
           "type": "SL",
           "price": 1.15924,
           "time": "2026-09-10 12:00:00",
-          "index": 196,
+          "index": 194,
           "label": "LL"
         },
         {
           "type": "SH",
           "price": 1.16154,
           "time": "2026-09-11 12:00:00",
-          "index": 202,
+          "index": 200,
           "label": "LH"
         },
         {
           "type": "SL",
           "price": 1.15232,
           "time": "2026-09-14 12:00:00",
-          "index": 208,
+          "index": 206,
           "label": "LL"
         },
         {
           "type": "SH",
           "price": 1.15634,
           "time": "2026-09-14 16:00:00",
-          "index": 209,
+          "index": 207,
           "label": "LH"
         },
         {
           "type": "SL",
           "price": 1.15272,
           "time": "2026-09-15 04:00:00",
-          "index": 212,
+          "index": 210,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 1.15517,
           "time": "2026-09-15 12:00:00",
-          "index": 214,
+          "index": 212,
           "label": "LH"
         }
       ],
       "swings": [
         {
-          "type": "SL",
-          "price": 1.13534,
-          "time": "2026-07-28 08:00:00",
-          "index": 3
-        },
-        {
           "type": "SH",
           "price": 1.14052,
           "time": "2026-07-28 16:00:00",
-          "index": 5
+          "index": 3
         },
         {
           "type": "SL",
           "price": 1.13747,
           "time": "2026-07-29 12:00:00",
-          "index": 10
+          "index": 8
         },
         {
           "type": "SH",
           "price": 1.14749,
           "time": "2026-07-29 20:00:00",
-          "index": 12
+          "index": 10
         },
         {
           "type": "SL",
           "price": 1.14344,
           "time": "2026-07-30 04:00:00",
-          "index": 14
+          "index": 12
         },
         {
           "type": "SH",
           "price": 1.1537,
           "time": "2026-07-30 12:00:00",
-          "index": 16
+          "index": 14
         },
         {
           "type": "SL",
           "price": 1.14553,
           "time": "2026-07-31 12:00:00",
-          "index": 22
+          "index": 20
         },
         {
           "type": "SH",
           "price": 1.15559,
           "time": "2026-08-03 00:00:00",
-          "index": 25
+          "index": 23
         },
         {
           "type": "SL",
           "price": 1.15005,
           "time": "2026-08-03 12:00:00",
-          "index": 28
+          "index": 26
         },
         {
           "type": "SH",
           "price": 1.15597,
           "time": "2026-08-06 00:00:00",
-          "index": 43
+          "index": 41
         },
         {
           "type": "SL",
           "price": 1.15148,
           "time": "2026-08-06 16:00:00",
-          "index": 47
+          "index": 45
         },
         {
           "type": "SH",
           "price": 1.15809,
           "time": "2026-08-07 12:00:00",
-          "index": 52
+          "index": 50
         },
         {
           "type": "SL",
           "price": 1.15315,
           "time": "2026-08-11 08:00:00",
-          "index": 63
+          "index": 61
         },
         {
           "type": "SH",
           "price": 1.15484,
           "time": "2026-08-11 12:00:00",
-          "index": 64
+          "index": 62
         },
         {
           "type": "SL",
           "price": 1.15323,
           "time": "2026-08-12 04:00:00",
-          "index": 68
+          "index": 66
         },
         {
           "type": "SH",
           "price": 1.15629,
           "time": "2026-08-12 12:00:00",
-          "index": 70
+          "index": 68
         },
         {
           "type": "SL",
           "price": 1.15119,
           "time": "2026-08-13 04:00:00",
-          "index": 74
+          "index": 72
         },
         {
           "type": "SH",
           "price": 1.16141,
           "time": "2026-08-17 08:00:00",
-          "index": 87
+          "index": 85
         },
         {
           "type": "SL",
           "price": 1.15667,
           "time": "2026-08-18 04:00:00",
-          "index": 92
+          "index": 90
         },
         {
           "type": "SH",
           "price": 1.15884,
           "time": "2026-08-18 12:00:00",
-          "index": 94
+          "index": 92
         },
         {
           "type": "SL",
           "price": 1.15702,
           "time": "2026-08-19 00:00:00",
-          "index": 97
+          "index": 95
         },
         {
           "type": "SH",
           "price": 1.17106,
           "time": "2026-08-20 08:00:00",
-          "index": 105
+          "index": 103
         },
         {
           "type": "SL",
           "price": 1.16693,
           "time": "2026-08-20 16:00:00",
-          "index": 107
+          "index": 105
         },
         {
           "type": "SH",
           "price": 1.17113,
           "time": "2026-08-21 08:00:00",
-          "index": 111
+          "index": 109
         },
         {
           "type": "SL",
           "price": 1.16691,
           "time": "2026-08-21 12:00:00",
-          "index": 112
+          "index": 110
         },
         {
           "type": "SH",
           "price": 1.16873,
           "time": "2026-08-24 00:00:00",
-          "index": 115
+          "index": 113
         },
         {
           "type": "SL",
           "price": 1.16512,
           "time": "2026-08-25 04:00:00",
-          "index": 122
+          "index": 120
         },
         {
           "type": "SH",
           "price": 1.16796,
           "time": "2026-08-25 20:00:00",
-          "index": 126
+          "index": 124
         },
         {
           "type": "SL",
           "price": 1.16421,
           "time": "2026-08-26 12:00:00",
-          "index": 130
+          "index": 128
         },
         {
           "type": "SH",
           "price": 1.16595,
           "time": "2026-08-27 00:00:00",
-          "index": 133
+          "index": 131
         },
         {
           "type": "SL",
           "price": 1.16366,
           "time": "2026-08-27 08:00:00",
-          "index": 135
+          "index": 133
         },
         {
           "type": "SH",
           "price": 1.166,
           "time": "2026-08-27 12:00:00",
-          "index": 136
+          "index": 134
         },
         {
           "type": "SL",
           "price": 1.15779,
           "time": "2026-08-28 16:00:00",
-          "index": 143
+          "index": 141
         },
         {
           "type": "SH",
           "price": 1.16245,
           "time": "2026-09-01 00:00:00",
-          "index": 151
+          "index": 149
         },
         {
           "type": "SL",
           "price": 1.15664,
           "time": "2026-09-02 04:00:00",
-          "index": 158
+          "index": 156
         },
         {
           "type": "SH",
           "price": 1.16413,
           "time": "2026-09-03 16:00:00",
-          "index": 167
+          "index": 165
         },
         {
           "type": "SL",
           "price": 1.15853,
           "time": "2026-09-04 12:00:00",
-          "index": 172
+          "index": 170
         },
         {
           "type": "SH",
           "price": 1.16359,
           "time": "2026-09-07 08:00:00",
-          "index": 177
+          "index": 175
         },
         {
           "type": "SL",
           "price": 1.1608,
           "time": "2026-09-08 08:00:00",
-          "index": 183
+          "index": 181
         },
         {
           "type": "SH",
           "price": 1.16542,
           "time": "2026-09-09 12:00:00",
-          "index": 190
+          "index": 188
         },
         {
           "type": "SL",
           "price": 1.16202,
           "time": "2026-09-09 12:00:00",
-          "index": 190
+          "index": 188
         },
         {
           "type": "SH",
           "price": 1.16418,
           "time": "2026-09-10 04:00:00",
-          "index": 194
+          "index": 192
         },
         {
           "type": "SL",
           "price": 1.15924,
           "time": "2026-09-10 12:00:00",
-          "index": 196
+          "index": 194
         },
         {
           "type": "SH",
           "price": 1.16154,
           "time": "2026-09-11 12:00:00",
-          "index": 202
+          "index": 200
         },
         {
           "type": "SL",
           "price": 1.15232,
           "time": "2026-09-14 12:00:00",
-          "index": 208
+          "index": 206
         },
         {
           "type": "SH",
           "price": 1.15634,
           "time": "2026-09-14 16:00:00",
-          "index": 209
+          "index": 207
         },
         {
           "type": "SL",
           "price": 1.15272,
           "time": "2026-09-15 04:00:00",
-          "index": 212
+          "index": 210
         },
         {
           "type": "SH",
           "price": 1.15517,
           "time": "2026-09-15 12:00:00",
-          "index": 214
+          "index": 212
         }
       ]
     },
@@ -1014,8 +971,8 @@
           "top": 1.33044,
           "bottom": 1.3279,
           "time": "2026-07-29 12:00:00",
-          "index": 10,
-          "break_index": 11,
+          "index": 8,
+          "break_index": 9,
           "swing_price": 1.33112,
           "mitigated": true,
           "fresh": false
@@ -1025,8 +982,8 @@
           "top": 1.33568,
           "bottom": 1.33331,
           "time": "2026-07-30 04:00:00",
-          "index": 14,
-          "break_index": 15,
+          "index": 12,
+          "break_index": 13,
           "swing_price": 1.33873,
           "mitigated": true,
           "fresh": false
@@ -1036,8 +993,8 @@
           "top": 1.34727,
           "bottom": 1.34004,
           "time": "2026-07-31 12:00:00",
-          "index": 22,
-          "break_index": 23,
+          "index": 20,
+          "break_index": 21,
           "swing_price": 1.34766,
           "mitigated": true,
           "fresh": false
@@ -1047,8 +1004,8 @@
           "top": 1.34364,
           "bottom": 1.34176,
           "time": "2026-08-03 16:00:00",
-          "index": 29,
-          "break_index": 59,
+          "index": 27,
+          "break_index": 57,
           "swing_price": 1.35028,
           "mitigated": true,
           "fresh": false
@@ -1058,8 +1015,8 @@
           "top": 1.34499,
           "bottom": 1.34345,
           "time": "2026-08-07 08:00:00",
-          "index": 51,
-          "break_index": 52,
+          "index": 49,
+          "break_index": 50,
           "swing_price": 1.34861,
           "mitigated": true,
           "fresh": false
@@ -1069,8 +1026,8 @@
           "top": 1.34938,
           "bottom": 1.34833,
           "time": "2026-08-10 00:00:00",
-          "index": 55,
-          "break_index": 58,
+          "index": 53,
+          "break_index": 56,
           "swing_price": 1.35088,
           "mitigated": true,
           "fresh": false
@@ -1080,8 +1037,8 @@
           "top": 1.3543,
           "bottom": 1.3502,
           "time": "2026-08-12 12:00:00",
-          "index": 70,
-          "break_index": 73,
+          "index": 68,
+          "break_index": 71,
           "swing_price": 1.34922,
           "mitigated": true,
           "fresh": false
@@ -1091,8 +1048,8 @@
           "top": 1.3543,
           "bottom": 1.3502,
           "time": "2026-08-12 12:00:00",
-          "index": 70,
-          "break_index": 74,
+          "index": 68,
+          "break_index": 72,
           "swing_price": 1.34833,
           "mitigated": true,
           "fresh": false
@@ -1102,8 +1059,8 @@
           "top": 1.34978,
           "bottom": 1.34746,
           "time": "2026-08-13 04:00:00",
-          "index": 74,
-          "break_index": 81,
+          "index": 72,
+          "break_index": 79,
           "swing_price": 1.35304,
           "mitigated": true,
           "fresh": false
@@ -1113,8 +1070,8 @@
           "top": 1.34978,
           "bottom": 1.34746,
           "time": "2026-08-13 04:00:00",
-          "index": 74,
-          "break_index": 82,
+          "index": 72,
+          "break_index": 80,
           "swing_price": 1.3543,
           "mitigated": true,
           "fresh": false
@@ -1124,8 +1081,8 @@
           "top": 1.35419,
           "bottom": 1.35198,
           "time": "2026-08-18 04:00:00",
-          "index": 92,
-          "break_index": 100,
+          "index": 90,
+          "break_index": 98,
           "swing_price": 1.35711,
           "mitigated": true,
           "fresh": false
@@ -1135,8 +1092,8 @@
           "top": 1.35437,
           "bottom": 1.35235,
           "time": "2026-08-19 00:00:00",
-          "index": 97,
-          "break_index": 98,
+          "index": 95,
+          "break_index": 96,
           "swing_price": 1.35509,
           "mitigated": true,
           "fresh": false
@@ -1146,8 +1103,8 @@
           "top": 1.36756,
           "bottom": 1.36355,
           "time": "2026-08-21 08:00:00",
-          "index": 111,
-          "break_index": 155,
+          "index": 109,
+          "break_index": 153,
           "swing_price": 1.35235,
           "mitigated": true,
           "fresh": false
@@ -1157,9 +1114,20 @@
           "top": 1.36756,
           "bottom": 1.36355,
           "time": "2026-08-21 08:00:00",
-          "index": 111,
-          "break_index": 156,
+          "index": 109,
+          "break_index": 154,
           "swing_price": 1.35198,
+          "mitigated": true,
+          "fresh": false
+        },
+        {
+          "type": "Bearish OB",
+          "top": 1.36756,
+          "bottom": 1.36355,
+          "time": "2026-08-21 08:00:00",
+          "index": 109,
+          "break_index": 214,
+          "swing_price": 1.34746,
           "mitigated": true,
           "fresh": false
         },
@@ -1168,8 +1136,8 @@
           "top": 1.3656,
           "bottom": 1.36418,
           "time": "2026-08-24 00:00:00",
-          "index": 115,
-          "break_index": 132,
+          "index": 113,
+          "break_index": 130,
           "swing_price": 1.36185,
           "mitigated": true,
           "fresh": false
@@ -1179,8 +1147,8 @@
           "top": 1.36445,
           "bottom": 1.36221,
           "time": "2026-08-25 04:00:00",
-          "index": 122,
-          "break_index": 125,
+          "index": 120,
+          "break_index": 123,
           "swing_price": 1.36498,
           "mitigated": true,
           "fresh": false
@@ -1190,8 +1158,8 @@
           "top": 1.3655,
           "bottom": 1.36373,
           "time": "2026-08-25 20:00:00",
-          "index": 126,
-          "break_index": 130,
+          "index": 124,
+          "break_index": 128,
           "swing_price": 1.36221,
           "mitigated": true,
           "fresh": false
@@ -1201,8 +1169,8 @@
           "top": 1.3655,
           "bottom": 1.36373,
           "time": "2026-08-25 20:00:00",
-          "index": 126,
-          "break_index": 131,
+          "index": 124,
+          "break_index": 129,
           "swing_price": 1.36213,
           "mitigated": true,
           "fresh": false
@@ -1212,8 +1180,8 @@
           "top": 1.36026,
           "bottom": 1.35736,
           "time": "2026-08-27 12:00:00",
-          "index": 136,
-          "break_index": 142,
+          "index": 134,
+          "break_index": 140,
           "swing_price": 1.35709,
           "mitigated": true,
           "fresh": false
@@ -1223,8 +1191,8 @@
           "top": 1.35655,
           "bottom": 1.35359,
           "time": "2026-08-31 12:00:00",
-          "index": 148,
-          "break_index": 154,
+          "index": 146,
+          "break_index": 152,
           "swing_price": 1.3527,
           "mitigated": true,
           "fresh": false
@@ -1234,8 +1202,8 @@
           "top": 1.35595,
           "bottom": 1.35409,
           "time": "2026-09-01 00:00:00",
-          "index": 151,
-          "break_index": 153,
+          "index": 149,
+          "break_index": 151,
           "swing_price": 1.35359,
           "mitigated": true,
           "fresh": false
@@ -1245,8 +1213,8 @@
           "top": 1.35136,
           "bottom": 1.34747,
           "time": "2026-09-02 12:00:00",
-          "index": 160,
-          "break_index": 189,
+          "index": 158,
+          "break_index": 187,
           "swing_price": 1.35595,
           "mitigated": true,
           "fresh": false
@@ -1256,8 +1224,8 @@
           "top": 1.35364,
           "bottom": 1.34833,
           "time": "2026-09-04 12:00:00",
-          "index": 172,
-          "break_index": 188,
+          "index": 170,
+          "break_index": 186,
           "swing_price": 1.35492,
           "mitigated": true,
           "fresh": false
@@ -1267,8 +1235,8 @@
           "top": 1.35679,
           "bottom": 1.35446,
           "time": "2026-09-09 04:00:00",
-          "index": 188,
-          "break_index": 212,
+          "index": 186,
+          "break_index": 210,
           "swing_price": 1.34833,
           "mitigated": true,
           "fresh": false
@@ -1278,8 +1246,8 @@
           "top": 1.35679,
           "bottom": 1.35446,
           "time": "2026-09-09 04:00:00",
-          "index": 188,
-          "break_index": 215,
+          "index": 186,
+          "break_index": 213,
           "swing_price": 1.34747,
           "mitigated": true,
           "fresh": false
@@ -1289,8 +1257,8 @@
           "top": 1.35349,
           "bottom": 1.3482,
           "time": "2026-09-11 12:00:00",
-          "index": 202,
-          "break_index": 207,
+          "index": 200,
+          "break_index": 205,
           "swing_price": 1.34915,
           "mitigated": true,
           "fresh": false
@@ -1304,603 +1272,590 @@
               "type": "SH",
               "price": 1.35137,
               "time": "2026-09-14 16:00:00",
-              "index": 209,
+              "index": 207,
               "label": "LH"
             },
             {
               "type": "SH",
               "price": 1.34963,
               "time": "2026-09-15 12:00:00",
-              "index": 214,
+              "index": 212,
               "label": "LH"
             }
           ],
           "slope": -0.00034799999999997057,
-          "intercept": 1.4241019999999938,
-          "start_index": 209,
-          "end_index": 214,
+          "intercept": 1.423405999999994,
+          "start_index": 207,
+          "end_index": 212,
           "touches": [],
           "touch_count": 2,
-          "status": "provisional",
-          "broken": false,
+          "status": "broken",
+          "broken": true,
           "valid": true
         }
       ],
       "confirmed_trendlines": [],
       "structure": [
         {
-          "type": "SL",
-          "price": 1.32736,
-          "time": "2026-07-28 08:00:00",
-          "index": 3,
-          "label": "SL"
-        },
-        {
           "type": "SH",
           "price": 1.33112,
           "time": "2026-07-28 16:00:00",
-          "index": 5,
+          "index": 3,
           "label": "SH"
         },
         {
           "type": "SL",
           "price": 1.3279,
           "time": "2026-07-29 12:00:00",
-          "index": 10,
-          "label": "HL"
+          "index": 8,
+          "label": "SL"
         },
         {
           "type": "SH",
           "price": 1.33873,
           "time": "2026-07-29 16:00:00",
-          "index": 11,
+          "index": 9,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 1.33331,
           "time": "2026-07-30 04:00:00",
-          "index": 14,
+          "index": 12,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 1.34766,
           "time": "2026-07-30 16:00:00",
-          "index": 17,
+          "index": 15,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 1.34004,
           "time": "2026-07-31 12:00:00",
-          "index": 22,
+          "index": 20,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 1.35028,
           "time": "2026-08-03 00:00:00",
-          "index": 25,
+          "index": 23,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 1.34176,
           "time": "2026-08-03 16:00:00",
-          "index": 29,
+          "index": 27,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 1.34861,
           "time": "2026-08-05 12:00:00",
-          "index": 40,
+          "index": 38,
           "label": "LH"
         },
         {
           "type": "SL",
           "price": 1.34345,
           "time": "2026-08-07 08:00:00",
-          "index": 51,
+          "index": 49,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 1.35088,
           "time": "2026-08-07 12:00:00",
-          "index": 52,
+          "index": 50,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 1.34833,
           "time": "2026-08-10 00:00:00",
-          "index": 55,
+          "index": 53,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 1.35304,
           "time": "2026-08-10 12:00:00",
-          "index": 58,
+          "index": 56,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 1.34922,
           "time": "2026-08-11 12:00:00",
-          "index": 64,
+          "index": 62,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 1.3543,
           "time": "2026-08-12 12:00:00",
-          "index": 70,
+          "index": 68,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 1.34746,
           "time": "2026-08-13 04:00:00",
-          "index": 74,
+          "index": 72,
           "label": "LL"
         },
         {
           "type": "SH",
           "price": 1.35711,
           "time": "2026-08-17 04:00:00",
-          "index": 86,
+          "index": 84,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 1.35198,
           "time": "2026-08-18 04:00:00",
-          "index": 92,
+          "index": 90,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 1.35509,
           "time": "2026-08-18 12:00:00",
-          "index": 94,
+          "index": 92,
           "label": "LH"
         },
         {
           "type": "SL",
           "price": 1.35235,
           "time": "2026-08-19 00:00:00",
-          "index": 97,
+          "index": 95,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 1.36756,
           "time": "2026-08-21 08:00:00",
-          "index": 111,
+          "index": 109,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 1.36185,
           "time": "2026-08-21 12:00:00",
-          "index": 112,
+          "index": 110,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 1.3656,
           "time": "2026-08-24 00:00:00",
-          "index": 115,
+          "index": 113,
           "label": "LH"
         },
         {
           "type": "SL",
           "price": 1.36213,
           "time": "2026-08-24 08:00:00",
-          "index": 117,
+          "index": 115,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 1.36498,
           "time": "2026-08-24 12:00:00",
-          "index": 118,
+          "index": 116,
           "label": "LH"
         },
         {
           "type": "SL",
           "price": 1.36221,
           "time": "2026-08-25 04:00:00",
-          "index": 122,
+          "index": 120,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 1.3655,
           "time": "2026-08-25 20:00:00",
-          "index": 126,
+          "index": 124,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 1.35709,
           "time": "2026-08-27 08:00:00",
-          "index": 135,
+          "index": 133,
           "label": "LL"
         },
         {
           "type": "SH",
           "price": 1.36026,
           "time": "2026-08-27 12:00:00",
-          "index": 136,
+          "index": 134,
           "label": "LH"
         },
         {
           "type": "SL",
           "price": 1.3527,
           "time": "2026-08-28 16:00:00",
-          "index": 143,
+          "index": 141,
           "label": "LL"
         },
         {
           "type": "SH",
           "price": 1.35655,
           "time": "2026-08-31 12:00:00",
-          "index": 148,
+          "index": 146,
           "label": "LH"
         },
         {
           "type": "SL",
           "price": 1.35359,
           "time": "2026-08-31 12:00:00",
-          "index": 148,
+          "index": 146,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 1.35595,
           "time": "2026-09-01 00:00:00",
-          "index": 151,
+          "index": 149,
           "label": "LH"
         },
         {
           "type": "SL",
           "price": 1.34747,
           "time": "2026-09-02 12:00:00",
-          "index": 160,
+          "index": 158,
           "label": "LL"
         },
         {
           "type": "SH",
           "price": 1.35492,
           "time": "2026-09-04 04:00:00",
-          "index": 170,
+          "index": 168,
           "label": "LH"
         },
         {
           "type": "SL",
           "price": 1.34833,
           "time": "2026-09-04 12:00:00",
-          "index": 172,
+          "index": 170,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 1.35679,
           "time": "2026-09-09 04:00:00",
-          "index": 188,
+          "index": 186,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 1.34915,
           "time": "2026-09-10 12:00:00",
-          "index": 196,
+          "index": 194,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 1.35349,
           "time": "2026-09-11 12:00:00",
-          "index": 202,
+          "index": 200,
           "label": "LH"
         },
         {
           "type": "SL",
           "price": 1.34641,
           "time": "2026-09-14 12:00:00",
-          "index": 208,
+          "index": 206,
           "label": "LL"
         },
         {
           "type": "SH",
           "price": 1.35137,
           "time": "2026-09-14 16:00:00",
-          "index": 209,
+          "index": 207,
           "label": "LH"
         },
         {
           "type": "SL",
           "price": 1.34642,
           "time": "2026-09-15 04:00:00",
-          "index": 212,
+          "index": 210,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 1.34963,
           "time": "2026-09-15 12:00:00",
-          "index": 214,
+          "index": 212,
           "label": "LH"
         }
       ],
       "swings": [
         {
-          "type": "SL",
-          "price": 1.32736,
-          "time": "2026-07-28 08:00:00",
-          "index": 3
-        },
-        {
           "type": "SH",
           "price": 1.33112,
           "time": "2026-07-28 16:00:00",
-          "index": 5
+          "index": 3
         },
         {
           "type": "SL",
           "price": 1.3279,
           "time": "2026-07-29 12:00:00",
-          "index": 10
+          "index": 8
         },
         {
           "type": "SH",
           "price": 1.33873,
           "time": "2026-07-29 16:00:00",
-          "index": 11
+          "index": 9
         },
         {
           "type": "SL",
           "price": 1.33331,
           "time": "2026-07-30 04:00:00",
-          "index": 14
+          "index": 12
         },
         {
           "type": "SH",
           "price": 1.34766,
           "time": "2026-07-30 16:00:00",
-          "index": 17
+          "index": 15
         },
         {
           "type": "SL",
           "price": 1.34004,
           "time": "2026-07-31 12:00:00",
-          "index": 22
+          "index": 20
         },
         {
           "type": "SH",
           "price": 1.35028,
           "time": "2026-08-03 00:00:00",
-          "index": 25
+          "index": 23
         },
         {
           "type": "SL",
           "price": 1.34176,
           "time": "2026-08-03 16:00:00",
-          "index": 29
+          "index": 27
         },
         {
           "type": "SH",
           "price": 1.34861,
           "time": "2026-08-05 12:00:00",
-          "index": 40
+          "index": 38
         },
         {
           "type": "SL",
           "price": 1.34345,
           "time": "2026-08-07 08:00:00",
-          "index": 51
+          "index": 49
         },
         {
           "type": "SH",
           "price": 1.35088,
           "time": "2026-08-07 12:00:00",
-          "index": 52
+          "index": 50
         },
         {
           "type": "SL",
           "price": 1.34833,
           "time": "2026-08-10 00:00:00",
-          "index": 55
+          "index": 53
         },
         {
           "type": "SH",
           "price": 1.35304,
           "time": "2026-08-10 12:00:00",
-          "index": 58
+          "index": 56
         },
         {
           "type": "SL",
           "price": 1.34922,
           "time": "2026-08-11 12:00:00",
-          "index": 64
+          "index": 62
         },
         {
           "type": "SH",
           "price": 1.3543,
           "time": "2026-08-12 12:00:00",
-          "index": 70
+          "index": 68
         },
         {
           "type": "SL",
           "price": 1.34746,
           "time": "2026-08-13 04:00:00",
-          "index": 74
+          "index": 72
         },
         {
           "type": "SH",
           "price": 1.35711,
           "time": "2026-08-17 04:00:00",
-          "index": 86
+          "index": 84
         },
         {
           "type": "SL",
           "price": 1.35198,
           "time": "2026-08-18 04:00:00",
-          "index": 92
+          "index": 90
         },
         {
           "type": "SH",
           "price": 1.35509,
           "time": "2026-08-18 12:00:00",
-          "index": 94
+          "index": 92
         },
         {
           "type": "SL",
           "price": 1.35235,
           "time": "2026-08-19 00:00:00",
-          "index": 97
+          "index": 95
         },
         {
           "type": "SH",
           "price": 1.36756,
           "time": "2026-08-21 08:00:00",
-          "index": 111
+          "index": 109
         },
         {
           "type": "SL",
           "price": 1.36185,
           "time": "2026-08-21 12:00:00",
-          "index": 112
+          "index": 110
         },
         {
           "type": "SH",
           "price": 1.3656,
           "time": "2026-08-24 00:00:00",
-          "index": 115
+          "index": 113
         },
         {
           "type": "SL",
           "price": 1.36213,
           "time": "2026-08-24 08:00:00",
-          "index": 117
+          "index": 115
         },
         {
           "type": "SH",
           "price": 1.36498,
           "time": "2026-08-24 12:00:00",
-          "index": 118
+          "index": 116
         },
         {
           "type": "SL",
           "price": 1.36221,
           "time": "2026-08-25 04:00:00",
-          "index": 122
+          "index": 120
         },
         {
           "type": "SH",
           "price": 1.3655,
           "time": "2026-08-25 20:00:00",
-          "index": 126
+          "index": 124
         },
         {
           "type": "SL",
           "price": 1.35709,
           "time": "2026-08-27 08:00:00",
-          "index": 135
+          "index": 133
         },
         {
           "type": "SH",
           "price": 1.36026,
           "time": "2026-08-27 12:00:00",
-          "index": 136
+          "index": 134
         },
         {
           "type": "SL",
           "price": 1.3527,
           "time": "2026-08-28 16:00:00",
-          "index": 143
+          "index": 141
         },
         {
           "type": "SH",
           "price": 1.35655,
           "time": "2026-08-31 12:00:00",
-          "index": 148
+          "index": 146
         },
         {
           "type": "SL",
           "price": 1.35359,
           "time": "2026-08-31 12:00:00",
-          "index": 148
+          "index": 146
         },
         {
           "type": "SH",
           "price": 1.35595,
           "time": "2026-09-01 00:00:00",
-          "index": 151
+          "index": 149
         },
         {
           "type": "SL",
           "price": 1.34747,
           "time": "2026-09-02 12:00:00",
-          "index": 160
+          "index": 158
         },
         {
           "type": "SH",
           "price": 1.35492,
           "time": "2026-09-04 04:00:00",
-          "index": 170
+          "index": 168
         },
         {
           "type": "SL",
           "price": 1.34833,
           "time": "2026-09-04 12:00:00",
-          "index": 172
+          "index": 170
         },
         {
           "type": "SH",
           "price": 1.35679,
           "time": "2026-09-09 04:00:00",
-          "index": 188
+          "index": 186
         },
         {
           "type": "SL",
           "price": 1.34915,
           "time": "2026-09-10 12:00:00",
-          "index": 196
+          "index": 194
         },
         {
           "type": "SH",
           "price": 1.35349,
           "time": "2026-09-11 12:00:00",
-          "index": 202
+          "index": 200
         },
         {
           "type": "SL",
           "price": 1.34641,
           "time": "2026-09-14 12:00:00",
-          "index": 208
+          "index": 206
         },
         {
           "type": "SH",
           "price": 1.35137,
           "time": "2026-09-14 16:00:00",
-          "index": 209
+          "index": 207
         },
         {
           "type": "SL",
           "price": 1.34642,
           "time": "2026-09-15 04:00:00",
-          "index": 212
+          "index": 210
         },
         {
           "type": "SH",
           "price": 1.34963,
           "time": "2026-09-15 12:00:00",
-          "index": 214
+          "index": 212
         }
       ]
     },
@@ -1911,8 +1866,8 @@
           "top": 163.904,
           "bottom": 163.234,
           "time": "2026-07-29 16:00:00",
-          "index": 11,
-          "break_index": 15,
+          "index": 9,
+          "break_index": 13,
           "swing_price": 163.28,
           "mitigated": true,
           "fresh": false
@@ -1922,8 +1877,8 @@
           "top": 160.883,
           "bottom": 160.147,
           "time": "2026-07-31 00:00:00",
-          "index": 19,
-          "break_index": 24,
+          "index": 17,
+          "break_index": 22,
           "swing_price": 157.982,
           "mitigated": true,
           "fresh": false
@@ -1933,8 +1888,8 @@
           "top": 157.633,
           "bottom": 157.22,
           "time": "2026-08-04 12:00:00",
-          "index": 34,
-          "break_index": 47,
+          "index": 32,
+          "break_index": 45,
           "swing_price": 157.959,
           "mitigated": true,
           "fresh": false
@@ -1944,8 +1899,8 @@
           "top": 157.668,
           "bottom": 157.314,
           "time": "2026-08-05 12:00:00",
-          "index": 40,
-          "break_index": 46,
+          "index": 38,
+          "break_index": 44,
           "swing_price": 157.876,
           "mitigated": true,
           "fresh": false
@@ -1955,8 +1910,8 @@
           "top": 158.398,
           "bottom": 156.68,
           "time": "2026-08-07 12:00:00",
-          "index": 52,
-          "break_index": 57,
+          "index": 50,
+          "break_index": 55,
           "swing_price": 158.573,
           "mitigated": true,
           "fresh": false
@@ -1966,8 +1921,8 @@
           "top": 159.375,
           "bottom": 158.601,
           "time": "2026-08-12 08:00:00",
-          "index": 69,
-          "break_index": 71,
+          "index": 67,
+          "break_index": 69,
           "swing_price": 159.461,
           "mitigated": true,
           "fresh": false
@@ -1977,8 +1932,8 @@
           "top": 159.565,
           "bottom": 159.344,
           "time": "2026-08-13 16:00:00",
-          "index": 77,
-          "break_index": 86,
+          "index": 75,
+          "break_index": 84,
           "swing_price": 159.025,
           "mitigated": true,
           "fresh": false
@@ -1988,8 +1943,8 @@
           "top": 159.218,
           "bottom": 158.605,
           "time": "2026-08-14 12:00:00",
-          "index": 82,
-          "break_index": 91,
+          "index": 80,
+          "break_index": 89,
           "swing_price": 159.543,
           "mitigated": true,
           "fresh": false
@@ -1999,8 +1954,8 @@
           "top": 159.218,
           "bottom": 158.605,
           "time": "2026-08-14 12:00:00",
-          "index": 82,
-          "break_index": 92,
+          "index": 80,
+          "break_index": 90,
           "swing_price": 159.565,
           "mitigated": true,
           "fresh": false
@@ -2010,8 +1965,8 @@
           "top": 159.13,
           "bottom": 158.846,
           "time": "2026-08-17 04:00:00",
-          "index": 86,
-          "break_index": 89,
+          "index": 84,
+          "break_index": 87,
           "swing_price": 159.4,
           "mitigated": true,
           "fresh": false
@@ -2021,8 +1976,8 @@
           "top": 159.779,
           "bottom": 159.553,
           "time": "2026-08-18 04:00:00",
-          "index": 92,
-          "break_index": 100,
+          "index": 90,
+          "break_index": 98,
           "swing_price": 158.846,
           "mitigated": true,
           "fresh": false
@@ -2032,8 +1987,8 @@
           "top": 159.779,
           "bottom": 159.553,
           "time": "2026-08-18 04:00:00",
-          "index": 92,
-          "break_index": 101,
+          "index": 90,
+          "break_index": 99,
           "swing_price": 158.605,
           "mitigated": true,
           "fresh": false
@@ -2043,8 +1998,8 @@
           "top": 159.779,
           "bottom": 159.553,
           "time": "2026-08-18 04:00:00",
-          "index": 92,
-          "break_index": 102,
+          "index": 90,
+          "break_index": 100,
           "swing_price": 158.601,
           "mitigated": true,
           "fresh": false
@@ -2054,8 +2009,8 @@
           "top": 158.282,
           "bottom": 158.028,
           "time": "2026-08-19 20:00:00",
-          "index": 102,
-          "break_index": 142,
+          "index": 100,
+          "break_index": 140,
           "swing_price": 159.779,
           "mitigated": true,
           "fresh": false
@@ -2065,8 +2020,8 @@
           "top": 158.873,
           "bottom": 158.356,
           "time": "2026-08-21 08:00:00",
-          "index": 111,
-          "break_index": 121,
+          "index": 109,
+          "break_index": 119,
           "swing_price": 159.182,
           "mitigated": true,
           "fresh": false
@@ -2076,8 +2031,8 @@
           "top": 158.971,
           "bottom": 158.708,
           "time": "2026-08-24 00:00:00",
-          "index": 115,
-          "break_index": 116,
+          "index": 113,
+          "break_index": 114,
           "swing_price": 159.053,
           "mitigated": true,
           "fresh": false
@@ -2087,8 +2042,8 @@
           "top": 159.258,
           "bottom": 158.882,
           "time": "2026-08-26 00:00:00",
-          "index": 127,
-          "break_index": 140,
+          "index": 125,
+          "break_index": 138,
           "swing_price": 159.491,
           "mitigated": true,
           "fresh": false
@@ -2098,8 +2053,8 @@
           "top": 159.398,
           "bottom": 159.116,
           "time": "2026-08-27 00:00:00",
-          "index": 133,
-          "break_index": 139,
+          "index": 131,
+          "break_index": 137,
           "swing_price": 159.445,
           "mitigated": true,
           "fresh": false
@@ -2109,8 +2064,8 @@
           "top": 159.467,
           "bottom": 159.241,
           "time": "2026-08-27 12:00:00",
-          "index": 136,
-          "break_index": 141,
+          "index": 134,
+          "break_index": 139,
           "swing_price": 159.526,
           "mitigated": true,
           "fresh": false
@@ -2120,8 +2075,8 @@
           "top": 159.778,
           "bottom": 159.478,
           "time": "2026-08-31 08:00:00",
-          "index": 147,
-          "break_index": 155,
+          "index": 145,
+          "break_index": 153,
           "swing_price": 160.203,
           "mitigated": true,
           "fresh": false
@@ -2131,8 +2086,8 @@
           "top": 160.394,
           "bottom": 160.14,
           "time": "2026-09-02 00:00:00",
-          "index": 157,
-          "break_index": 160,
+          "index": 155,
+          "break_index": 158,
           "swing_price": 159.478,
           "mitigated": true,
           "fresh": false
@@ -2142,8 +2097,8 @@
           "top": 160.394,
           "bottom": 160.14,
           "time": "2026-09-02 00:00:00",
-          "index": 157,
-          "break_index": 161,
+          "index": 155,
+          "break_index": 159,
           "swing_price": 159.241,
           "mitigated": true,
           "fresh": false
@@ -2153,8 +2108,8 @@
           "top": 160.394,
           "bottom": 160.14,
           "time": "2026-09-02 00:00:00",
-          "index": 157,
-          "break_index": 162,
+          "index": 155,
+          "break_index": 160,
           "swing_price": 158.927,
           "mitigated": true,
           "fresh": false
@@ -2164,8 +2119,8 @@
           "top": 160.394,
           "bottom": 160.14,
           "time": "2026-09-02 00:00:00",
-          "index": 157,
-          "break_index": 163,
+          "index": 155,
+          "break_index": 161,
           "swing_price": 158.882,
           "mitigated": true,
           "fresh": false
@@ -2175,8 +2130,8 @@
           "top": 160.394,
           "bottom": 160.14,
           "time": "2026-09-02 00:00:00",
-          "index": 157,
-          "break_index": 164,
+          "index": 155,
+          "break_index": 162,
           "swing_price": 158.708,
           "mitigated": true,
           "fresh": false
@@ -2186,8 +2141,8 @@
           "top": 160.394,
           "bottom": 160.14,
           "time": "2026-09-02 00:00:00",
-          "index": 157,
-          "break_index": 165,
+          "index": 155,
+          "break_index": 163,
           "swing_price": 158.356,
           "mitigated": true,
           "fresh": false
@@ -2197,8 +2152,8 @@
           "top": 160.394,
           "bottom": 160.14,
           "time": "2026-09-02 00:00:00",
-          "index": 157,
-          "break_index": 166,
+          "index": 155,
+          "break_index": 164,
           "swing_price": 158.028,
           "mitigated": true,
           "fresh": false
@@ -2208,8 +2163,8 @@
           "top": 160.394,
           "bottom": 160.14,
           "time": "2026-09-02 00:00:00",
-          "index": 157,
-          "break_index": 167,
+          "index": 155,
+          "break_index": 165,
           "swing_price": 156.68,
           "mitigated": true,
           "fresh": false
@@ -2219,8 +2174,8 @@
           "top": 160.394,
           "bottom": 160.14,
           "time": "2026-09-02 00:00:00",
-          "index": 157,
-          "break_index": 168,
+          "index": 155,
+          "break_index": 166,
           "swing_price": 157.314,
           "mitigated": true,
           "fresh": false
@@ -2230,8 +2185,8 @@
           "top": 160.394,
           "bottom": 160.14,
           "time": "2026-09-02 00:00:00",
-          "index": 157,
-          "break_index": 169,
+          "index": 155,
+          "break_index": 167,
           "swing_price": 157.22,
           "mitigated": true,
           "fresh": false
@@ -2241,8 +2196,8 @@
           "top": 160.394,
           "bottom": 160.14,
           "time": "2026-09-02 00:00:00",
-          "index": 157,
-          "break_index": 178,
+          "index": 155,
+          "break_index": 176,
           "swing_price": 155.229,
           "mitigated": true,
           "fresh": false
@@ -2252,8 +2207,8 @@
           "top": 156.751,
           "bottom": 155.36,
           "time": "2026-09-04 12:00:00",
-          "index": 172,
-          "break_index": 177,
+          "index": 170,
+          "break_index": 175,
           "swing_price": 155.299,
           "mitigated": true,
           "fresh": false
@@ -2263,8 +2218,8 @@
           "top": 153.487,
           "bottom": 152.949,
           "time": "2026-09-09 04:00:00",
-          "index": 188,
-          "break_index": 198,
+          "index": 186,
+          "break_index": 196,
           "swing_price": 154.42,
           "mitigated": true,
           "fresh": false
@@ -2274,8 +2229,8 @@
           "top": 153.679,
           "bottom": 153.3,
           "time": "2026-09-10 04:00:00",
-          "index": 194,
-          "break_index": 195,
+          "index": 192,
+          "break_index": 193,
           "swing_price": 153.801,
           "mitigated": true,
           "fresh": false
@@ -2285,8 +2240,8 @@
           "top": 154.482,
           "bottom": 153.245,
           "time": "2026-09-11 12:00:00",
-          "index": 202,
-          "break_index": 212,
+          "index": 200,
+          "break_index": 210,
           "swing_price": 154.666,
           "mitigated": true,
           "fresh": false
@@ -2296,9 +2251,20 @@
           "top": 154.459,
           "bottom": 153.992,
           "time": "2026-09-14 16:00:00",
-          "index": 209,
-          "break_index": 214,
+          "index": 207,
+          "break_index": 212,
           "swing_price": 155.001,
+          "mitigated": true,
+          "fresh": false
+        },
+        {
+          "type": "Bullish OB",
+          "top": 155.168,
+          "bottom": 154.839,
+          "time": "2026-09-15 12:00:00",
+          "index": 212,
+          "break_index": 214,
+          "swing_price": 155.238,
           "mitigated": true,
           "fresh": false
         }
@@ -2311,21 +2277,21 @@
               "type": "SL",
               "price": 153.3,
               "time": "2026-09-10 04:00:00",
-              "index": 194,
+              "index": 192,
               "label": "HL"
             },
             {
               "type": "SL",
               "price": 153.992,
               "time": "2026-09-14 16:00:00",
-              "index": 209,
+              "index": 207,
               "label": "HL"
             }
           ],
           "slope": 0.04613333333333192,
-          "intercept": 144.35013333333362,
-          "start_index": 194,
-          "end_index": 209,
+          "intercept": 144.44240000000028,
+          "start_index": 192,
+          "end_index": 207,
           "touches": [],
           "touch_count": 2,
           "status": "provisional",
@@ -2339,26 +2305,26 @@
               "type": "SH",
               "price": 154.42,
               "time": "2026-09-08 08:00:00",
-              "index": 183,
+              "index": 181,
               "label": "LH"
             },
             {
               "type": "SH",
               "price": 153.801,
               "time": "2026-09-09 12:00:00",
-              "index": 190,
+              "index": 188,
               "label": "LH"
             }
           ],
           "slope": -0.0884285714285714,
-          "intercept": 170.60242857142856,
-          "start_index": 183,
-          "end_index": 190,
+          "intercept": 170.4255714285714,
+          "start_index": 181,
+          "end_index": 188,
           "touches": [
+            189,
+            190,
             191,
-            192,
-            193,
-            194
+            192
           ],
           "touch_count": 6,
           "status": "broken",
@@ -2369,617 +2335,604 @@
       "confirmed_trendlines": [],
       "structure": [
         {
-          "type": "SH",
-          "price": 163.949,
-          "time": "2026-07-28 08:00:00",
-          "index": 3,
-          "label": "SH"
-        },
-        {
           "type": "SL",
           "price": 163.28,
           "time": "2026-07-29 04:00:00",
-          "index": 8,
+          "index": 6,
           "label": "SL"
         },
         {
           "type": "SH",
           "price": 163.904,
           "time": "2026-07-29 16:00:00",
-          "index": 11,
-          "label": "LH"
+          "index": 9,
+          "label": "SH"
         },
         {
           "type": "SL",
           "price": 157.982,
           "time": "2026-07-30 12:00:00",
-          "index": 16,
+          "index": 14,
           "label": "LL"
         },
         {
           "type": "SH",
           "price": 160.883,
           "time": "2026-07-31 00:00:00",
-          "index": 19,
+          "index": 17,
           "label": "LH"
         },
         {
           "type": "SL",
           "price": 155.229,
           "time": "2026-08-03 00:00:00",
-          "index": 25,
+          "index": 23,
           "label": "LL"
         },
         {
           "type": "SH",
           "price": 157.959,
           "time": "2026-08-04 08:00:00",
-          "index": 33,
+          "index": 31,
           "label": "LH"
         },
         {
           "type": "SL",
           "price": 157.22,
           "time": "2026-08-04 12:00:00",
-          "index": 34,
+          "index": 32,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 157.876,
           "time": "2026-08-05 08:00:00",
-          "index": 39,
+          "index": 37,
           "label": "LH"
         },
         {
           "type": "SL",
           "price": 157.314,
           "time": "2026-08-05 12:00:00",
-          "index": 40,
+          "index": 38,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 158.573,
           "time": "2026-08-07 00:00:00",
-          "index": 49,
+          "index": 47,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 156.68,
           "time": "2026-08-07 12:00:00",
-          "index": 52,
+          "index": 50,
           "label": "LL"
         },
         {
           "type": "SH",
           "price": 159.461,
           "time": "2026-08-12 04:00:00",
-          "index": 68,
+          "index": 66,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 158.601,
           "time": "2026-08-12 08:00:00",
-          "index": 69,
+          "index": 67,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 159.543,
           "time": "2026-08-12 16:00:00",
-          "index": 71,
+          "index": 69,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 159.025,
           "time": "2026-08-13 12:00:00",
-          "index": 76,
+          "index": 74,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 159.565,
           "time": "2026-08-13 16:00:00",
-          "index": 77,
+          "index": 75,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 158.605,
           "time": "2026-08-14 12:00:00",
-          "index": 82,
+          "index": 80,
           "label": "LL"
         },
         {
           "type": "SH",
           "price": 159.4,
           "time": "2026-08-14 16:00:00",
-          "index": 83,
+          "index": 81,
           "label": "LH"
         },
         {
           "type": "SL",
           "price": 158.846,
           "time": "2026-08-17 04:00:00",
-          "index": 86,
+          "index": 84,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 159.779,
           "time": "2026-08-18 04:00:00",
-          "index": 92,
+          "index": 90,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 158.028,
           "time": "2026-08-19 20:00:00",
-          "index": 102,
+          "index": 100,
           "label": "LL"
         },
         {
           "type": "SH",
           "price": 159.182,
           "time": "2026-08-20 16:00:00",
-          "index": 107,
+          "index": 105,
           "label": "LH"
         },
         {
           "type": "SL",
           "price": 158.356,
           "time": "2026-08-21 08:00:00",
-          "index": 111,
+          "index": 109,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 159.053,
           "time": "2026-08-21 16:00:00",
-          "index": 113,
+          "index": 111,
           "label": "LH"
         },
         {
           "type": "SL",
           "price": 158.708,
           "time": "2026-08-24 00:00:00",
-          "index": 115,
+          "index": 113,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 159.491,
           "time": "2026-08-25 08:00:00",
-          "index": 123,
+          "index": 121,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 158.882,
           "time": "2026-08-26 00:00:00",
-          "index": 127,
+          "index": 125,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 159.445,
           "time": "2026-08-26 12:00:00",
-          "index": 130,
+          "index": 128,
           "label": "LH"
         },
         {
           "type": "SL",
           "price": 158.927,
           "time": "2026-08-26 12:00:00",
-          "index": 130,
+          "index": 128,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 159.526,
           "time": "2026-08-27 08:00:00",
-          "index": 135,
+          "index": 133,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 159.241,
           "time": "2026-08-27 12:00:00",
-          "index": 136,
+          "index": 134,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 160.203,
           "time": "2026-08-28 16:00:00",
-          "index": 143,
+          "index": 141,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 159.478,
           "time": "2026-08-31 08:00:00",
-          "index": 147,
+          "index": 145,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 160.394,
           "time": "2026-09-02 00:00:00",
-          "index": 157,
+          "index": 155,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 155.299,
           "time": "2026-09-04 00:00:00",
-          "index": 169,
+          "index": 167,
           "label": "LL"
         },
         {
           "type": "SH",
           "price": 156.751,
           "time": "2026-09-04 12:00:00",
-          "index": 172,
+          "index": 170,
           "label": "LH"
         },
         {
           "type": "SL",
           "price": 152.893,
           "time": "2026-09-08 00:00:00",
-          "index": 181,
+          "index": 179,
           "label": "LL"
         },
         {
           "type": "SH",
           "price": 154.42,
           "time": "2026-09-08 08:00:00",
-          "index": 183,
+          "index": 181,
           "label": "LH"
         },
         {
           "type": "SL",
           "price": 152.949,
           "time": "2026-09-09 04:00:00",
-          "index": 188,
+          "index": 186,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 153.801,
           "time": "2026-09-09 12:00:00",
-          "index": 190,
+          "index": 188,
           "label": "LH"
         },
         {
           "type": "SL",
           "price": 153.3,
           "time": "2026-09-10 04:00:00",
-          "index": 194,
+          "index": 192,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 154.666,
           "time": "2026-09-10 12:00:00",
-          "index": 196,
+          "index": 194,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 153.245,
           "time": "2026-09-11 12:00:00",
-          "index": 202,
+          "index": 200,
           "label": "LL"
         },
         {
           "type": "SH",
           "price": 155.001,
           "time": "2026-09-14 12:00:00",
-          "index": 208,
+          "index": 206,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 153.992,
           "time": "2026-09-14 16:00:00",
-          "index": 209,
+          "index": 207,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 155.238,
           "time": "2026-09-15 08:00:00",
-          "index": 213,
+          "index": 211,
           "label": "HH"
         }
       ],
       "swings": [
         {
-          "type": "SH",
-          "price": 163.949,
-          "time": "2026-07-28 08:00:00",
-          "index": 3
-        },
-        {
           "type": "SL",
           "price": 163.28,
           "time": "2026-07-29 04:00:00",
-          "index": 8
+          "index": 6
         },
         {
           "type": "SH",
           "price": 163.904,
           "time": "2026-07-29 16:00:00",
-          "index": 11
+          "index": 9
         },
         {
           "type": "SL",
           "price": 157.982,
           "time": "2026-07-30 12:00:00",
-          "index": 16
+          "index": 14
         },
         {
           "type": "SH",
           "price": 160.883,
           "time": "2026-07-31 00:00:00",
-          "index": 19
+          "index": 17
         },
         {
           "type": "SL",
           "price": 155.229,
           "time": "2026-08-03 00:00:00",
-          "index": 25
+          "index": 23
         },
         {
           "type": "SH",
           "price": 157.959,
           "time": "2026-08-04 08:00:00",
-          "index": 33
+          "index": 31
         },
         {
           "type": "SL",
           "price": 157.22,
           "time": "2026-08-04 12:00:00",
-          "index": 34
+          "index": 32
         },
         {
           "type": "SH",
           "price": 157.876,
           "time": "2026-08-05 08:00:00",
-          "index": 39
+          "index": 37
         },
         {
           "type": "SL",
           "price": 157.314,
           "time": "2026-08-05 12:00:00",
-          "index": 40
+          "index": 38
         },
         {
           "type": "SH",
           "price": 158.573,
           "time": "2026-08-07 00:00:00",
-          "index": 49
+          "index": 47
         },
         {
           "type": "SL",
           "price": 156.68,
           "time": "2026-08-07 12:00:00",
-          "index": 52
+          "index": 50
         },
         {
           "type": "SH",
           "price": 159.461,
           "time": "2026-08-12 04:00:00",
-          "index": 68
+          "index": 66
         },
         {
           "type": "SL",
           "price": 158.601,
           "time": "2026-08-12 08:00:00",
-          "index": 69
+          "index": 67
         },
         {
           "type": "SH",
           "price": 159.543,
           "time": "2026-08-12 16:00:00",
-          "index": 71
+          "index": 69
         },
         {
           "type": "SL",
           "price": 159.025,
           "time": "2026-08-13 12:00:00",
-          "index": 76
+          "index": 74
         },
         {
           "type": "SH",
           "price": 159.565,
           "time": "2026-08-13 16:00:00",
-          "index": 77
+          "index": 75
         },
         {
           "type": "SL",
           "price": 158.605,
           "time": "2026-08-14 12:00:00",
-          "index": 82
+          "index": 80
         },
         {
           "type": "SH",
           "price": 159.4,
           "time": "2026-08-14 16:00:00",
-          "index": 83
+          "index": 81
         },
         {
           "type": "SL",
           "price": 158.846,
           "time": "2026-08-17 04:00:00",
-          "index": 86
+          "index": 84
         },
         {
           "type": "SH",
           "price": 159.779,
           "time": "2026-08-18 04:00:00",
-          "index": 92
+          "index": 90
         },
         {
           "type": "SL",
           "price": 158.028,
           "time": "2026-08-19 20:00:00",
-          "index": 102
+          "index": 100
         },
         {
           "type": "SH",
           "price": 159.182,
           "time": "2026-08-20 16:00:00",
-          "index": 107
+          "index": 105
         },
         {
           "type": "SL",
           "price": 158.356,
           "time": "2026-08-21 08:00:00",
-          "index": 111
+          "index": 109
         },
         {
           "type": "SH",
           "price": 159.053,
           "time": "2026-08-21 16:00:00",
-          "index": 113
+          "index": 111
         },
         {
           "type": "SL",
           "price": 158.708,
           "time": "2026-08-24 00:00:00",
-          "index": 115
+          "index": 113
         },
         {
           "type": "SH",
           "price": 159.491,
           "time": "2026-08-25 08:00:00",
-          "index": 123
+          "index": 121
         },
         {
           "type": "SL",
           "price": 158.882,
           "time": "2026-08-26 00:00:00",
-          "index": 127
+          "index": 125
         },
         {
           "type": "SH",
           "price": 159.445,
           "time": "2026-08-26 12:00:00",
-          "index": 130
+          "index": 128
         },
         {
           "type": "SL",
           "price": 158.927,
           "time": "2026-08-26 12:00:00",
-          "index": 130
+          "index": 128
         },
         {
           "type": "SH",
           "price": 159.526,
           "time": "2026-08-27 08:00:00",
-          "index": 135
+          "index": 133
         },
         {
           "type": "SL",
           "price": 159.241,
           "time": "2026-08-27 12:00:00",
-          "index": 136
+          "index": 134
         },
         {
           "type": "SH",
           "price": 160.203,
           "time": "2026-08-28 16:00:00",
-          "index": 143
+          "index": 141
         },
         {
           "type": "SL",
           "price": 159.478,
           "time": "2026-08-31 08:00:00",
-          "index": 147
+          "index": 145
         },
         {
           "type": "SH",
           "price": 160.394,
           "time": "2026-09-02 00:00:00",
-          "index": 157
+          "index": 155
         },
         {
           "type": "SL",
           "price": 155.299,
           "time": "2026-09-04 00:00:00",
-          "index": 169
+          "index": 167
         },
         {
           "type": "SH",
           "price": 156.751,
           "time": "2026-09-04 12:00:00",
-          "index": 172
+          "index": 170
         },
         {
           "type": "SL",
           "price": 152.893,
           "time": "2026-09-08 00:00:00",
-          "index": 181
+          "index": 179
         },
         {
           "type": "SH",
           "price": 154.42,
           "time": "2026-09-08 08:00:00",
-          "index": 183
+          "index": 181
         },
         {
           "type": "SL",
           "price": 152.949,
           "time": "2026-09-09 04:00:00",
-          "index": 188
+          "index": 186
         },
         {
           "type": "SH",
           "price": 153.801,
           "time": "2026-09-09 12:00:00",
-          "index": 190
+          "index": 188
         },
         {
           "type": "SL",
           "price": 153.3,
           "time": "2026-09-10 04:00:00",
-          "index": 194
+          "index": 192
         },
         {
           "type": "SH",
           "price": 154.666,
           "time": "2026-09-10 12:00:00",
-          "index": 196
+          "index": 194
         },
         {
           "type": "SL",
           "price": 153.245,
           "time": "2026-09-11 12:00:00",
-          "index": 202
+          "index": 200
         },
         {
           "type": "SH",
           "price": 155.001,
           "time": "2026-09-14 12:00:00",
-          "index": 208
+          "index": 206
         },
         {
           "type": "SL",
           "price": 153.992,
           "time": "2026-09-14 16:00:00",
-          "index": 209
+          "index": 207
         },
         {
           "type": "SH",
           "price": 155.238,
           "time": "2026-09-15 08:00:00",
-          "index": 213
+          "index": 211
         }
       ]
     },
@@ -2990,8 +2943,8 @@
           "top": 4047.77,
           "bottom": 4020.78,
           "time": "2026-07-29 04:00:00",
-          "index": 8,
-          "break_index": 10,
+          "index": 6,
+          "break_index": 8,
           "swing_price": 4010.55,
           "mitigated": true,
           "fresh": false
@@ -3001,8 +2954,8 @@
           "top": 4033.42,
           "bottom": 3996.07,
           "time": "2026-07-29 12:00:00",
-          "index": 10,
-          "break_index": 12,
+          "index": 8,
+          "break_index": 10,
           "swing_price": 4047.77,
           "mitigated": true,
           "fresh": false
@@ -3012,8 +2965,8 @@
           "top": 4064.61,
           "bottom": 4019.48,
           "time": "2026-08-03 12:00:00",
-          "index": 28,
-          "break_index": 34,
+          "index": 26,
+          "break_index": 32,
           "swing_price": 4078.99,
           "mitigated": true,
           "fresh": false
@@ -3023,8 +2976,8 @@
           "top": 4064.61,
           "bottom": 4019.48,
           "time": "2026-08-03 12:00:00",
-          "index": 28,
-          "break_index": 37,
+          "index": 26,
+          "break_index": 35,
           "swing_price": 4120.04,
           "mitigated": true,
           "fresh": false
@@ -3034,8 +2987,8 @@
           "top": 4064.61,
           "bottom": 4019.48,
           "time": "2026-08-03 12:00:00",
-          "index": 28,
-          "break_index": 38,
+          "index": 26,
+          "break_index": 36,
           "swing_price": 4116.44,
           "mitigated": true,
           "fresh": false
@@ -3045,8 +2998,8 @@
           "top": 4251.34,
           "bottom": 4223.53,
           "time": "2026-08-06 16:00:00",
-          "index": 47,
-          "break_index": 51,
+          "index": 45,
+          "break_index": 49,
           "swing_price": 4303.94,
           "mitigated": true,
           "fresh": false
@@ -3056,8 +3009,8 @@
           "top": 4347.2,
           "bottom": 4313.48,
           "time": "2026-08-10 00:00:00",
-          "index": 55,
-          "break_index": 60,
+          "index": 53,
+          "break_index": 58,
           "swing_price": 4371.84,
           "mitigated": true,
           "fresh": false
@@ -3067,8 +3020,8 @@
           "top": 4359.48,
           "bottom": 4316.78,
           "time": "2026-08-10 12:00:00",
-          "index": 58,
-          "break_index": 59,
+          "index": 56,
+          "break_index": 57,
           "swing_price": 4361.79,
           "mitigated": true,
           "fresh": false
@@ -3078,8 +3031,8 @@
           "top": 4449.7,
           "bottom": 4398.81,
           "time": "2026-08-13 00:00:00",
-          "index": 73,
-          "break_index": 77,
+          "index": 71,
+          "break_index": 75,
           "swing_price": 4356.83,
           "mitigated": true,
           "fresh": false
@@ -3089,8 +3042,8 @@
           "top": 4345.31,
           "bottom": 4311.21,
           "time": "2026-08-14 04:00:00",
-          "index": 80,
-          "break_index": 101,
+          "index": 78,
+          "break_index": 99,
           "swing_price": 4449.7,
           "mitigated": true,
           "fresh": false
@@ -3100,8 +3053,8 @@
           "top": 4345.31,
           "bottom": 4311.21,
           "time": "2026-08-14 04:00:00",
-          "index": 80,
-          "break_index": 102,
+          "index": 78,
+          "break_index": 100,
           "swing_price": 4435.16,
           "mitigated": true,
           "fresh": false
@@ -3111,8 +3064,8 @@
           "top": 4411.28,
           "bottom": 4387.14,
           "time": "2026-08-17 04:00:00",
-          "index": 86,
-          "break_index": 88,
+          "index": 84,
+          "break_index": 86,
           "swing_price": 4416.5,
           "mitigated": true,
           "fresh": false
@@ -3122,8 +3075,8 @@
           "top": 4436.15,
           "bottom": 4390.75,
           "time": "2026-08-18 00:00:00",
-          "index": 91,
-          "break_index": 94,
+          "index": 89,
+          "break_index": 92,
           "swing_price": 4368.3,
           "mitigated": true,
           "fresh": false
@@ -3133,8 +3086,8 @@
           "top": 4362.0,
           "bottom": 4324.94,
           "time": "2026-08-19 00:00:00",
-          "index": 97,
-          "break_index": 100,
+          "index": 95,
+          "break_index": 98,
           "swing_price": 4436.15,
           "mitigated": true,
           "fresh": false
@@ -3144,8 +3097,8 @@
           "top": 4532.08,
           "bottom": 4502.98,
           "time": "2026-08-20 16:00:00",
-          "index": 107,
-          "break_index": 110,
+          "index": 105,
+          "break_index": 108,
           "swing_price": 4540.88,
           "mitigated": true,
           "fresh": false
@@ -3155,8 +3108,8 @@
           "top": 4696.76,
           "bottom": 4619.59,
           "time": "2026-08-25 00:00:00",
-          "index": 121,
-          "break_index": 145,
+          "index": 119,
+          "break_index": 143,
           "swing_price": 4450.85,
           "mitigated": true,
           "fresh": false
@@ -3166,8 +3119,8 @@
           "top": 4696.76,
           "bottom": 4619.59,
           "time": "2026-08-25 00:00:00",
-          "index": 121,
-          "break_index": 156,
+          "index": 119,
+          "break_index": 154,
           "swing_price": 4324.94,
           "mitigated": true,
           "fresh": false
@@ -3177,8 +3130,8 @@
           "top": 4696.76,
           "bottom": 4619.59,
           "time": "2026-08-25 00:00:00",
-          "index": 121,
-          "break_index": 157,
+          "index": 119,
+          "break_index": 155,
           "swing_price": 4311.21,
           "mitigated": true,
           "fresh": false
@@ -3188,8 +3141,8 @@
           "top": 4696.76,
           "bottom": 4619.59,
           "time": "2026-08-25 00:00:00",
-          "index": 121,
-          "break_index": 197,
+          "index": 119,
+          "break_index": 195,
           "swing_price": 4316.78,
           "mitigated": true,
           "fresh": false
@@ -3199,8 +3152,8 @@
           "top": 4696.76,
           "bottom": 4619.59,
           "time": "2026-08-25 00:00:00",
-          "index": 121,
-          "break_index": 198,
+          "index": 119,
+          "break_index": 196,
           "swing_price": 4313.48,
           "mitigated": true,
           "fresh": false
@@ -3210,8 +3163,8 @@
           "top": 4673.78,
           "bottom": 4653.39,
           "time": "2026-08-25 20:00:00",
-          "index": 126,
-          "break_index": 130,
+          "index": 124,
+          "break_index": 128,
           "swing_price": 4605.45,
           "mitigated": true,
           "fresh": false
@@ -3221,8 +3174,8 @@
           "top": 4643.0,
           "bottom": 4600.73,
           "time": "2026-08-27 00:00:00",
-          "index": 133,
-          "break_index": 139,
+          "index": 131,
+          "break_index": 137,
           "swing_price": 4583.24,
           "mitigated": true,
           "fresh": false
@@ -3232,8 +3185,8 @@
           "top": 4617.9,
           "bottom": 4601.15,
           "time": "2026-08-27 16:00:00",
-          "index": 137,
-          "break_index": 142,
+          "index": 135,
+          "break_index": 140,
           "swing_price": 4565.67,
           "mitigated": true,
           "fresh": false
@@ -3243,8 +3196,8 @@
           "top": 4464.07,
           "bottom": 4433.95,
           "time": "2026-08-31 08:00:00",
-          "index": 147,
-          "break_index": 153,
+          "index": 145,
+          "break_index": 151,
           "swing_price": 4396.78,
           "mitigated": true,
           "fresh": false
@@ -3254,8 +3207,8 @@
           "top": 4334.45,
           "bottom": 4282.76,
           "time": "2026-09-02 00:00:00",
-          "index": 157,
-          "break_index": 166,
+          "index": 155,
+          "break_index": 164,
           "swing_price": 4461.39,
           "mitigated": true,
           "fresh": false
@@ -3265,8 +3218,8 @@
           "top": 4510.72,
           "bottom": 4438.11,
           "time": "2026-09-03 12:00:00",
-          "index": 166,
-          "break_index": 211,
+          "index": 164,
+          "break_index": 209,
           "swing_price": 4282.76,
           "mitigated": true,
           "fresh": false
@@ -3276,8 +3229,8 @@
           "top": 4443.33,
           "bottom": 4412.3,
           "time": "2026-09-04 16:00:00",
-          "index": 173,
-          "break_index": 184,
+          "index": 171,
+          "break_index": 182,
           "swing_price": 4365.79,
           "mitigated": true,
           "fresh": false
@@ -3287,8 +3240,8 @@
           "top": 4434.53,
           "bottom": 4404.35,
           "time": "2026-09-10 04:00:00",
-          "index": 193,
-          "break_index": 196,
+          "index": 191,
+          "break_index": 194,
           "swing_price": 4341.52,
           "mitigated": true,
           "fresh": false
@@ -3298,8 +3251,8 @@
           "top": 4402.09,
           "bottom": 4295.37,
           "time": "2026-09-11 12:00:00",
-          "index": 201,
-          "break_index": 206,
+          "index": 199,
+          "break_index": 204,
           "swing_price": 4300.98,
           "mitigated": true,
           "fresh": false
@@ -3313,21 +3266,21 @@
               "type": "SH",
               "price": 4434.53,
               "time": "2026-09-10 04:00:00",
-              "index": 193,
+              "index": 191,
               "label": "LH"
             },
             {
               "type": "SH",
               "price": 4402.09,
               "time": "2026-09-11 12:00:00",
-              "index": 201,
+              "index": 199,
               "label": "LH"
             }
           ],
           "slope": -4.05499999999995,
-          "intercept": 5217.14499999999,
-          "start_index": 193,
-          "end_index": 201,
+          "intercept": 5209.03499999999,
+          "start_index": 191,
+          "end_index": 199,
           "touches": [],
           "touch_count": 2,
           "status": "provisional",
@@ -3341,301 +3294,301 @@
           "type": "SL",
           "price": 4010.55,
           "time": "2026-07-29 00:00:00",
-          "index": 7,
+          "index": 5,
           "label": "SL"
         },
         {
           "type": "SH",
           "price": 4047.77,
           "time": "2026-07-29 04:00:00",
-          "index": 8,
+          "index": 6,
           "label": "SH"
         },
         {
           "type": "SL",
           "price": 3996.07,
           "time": "2026-07-29 12:00:00",
-          "index": 10,
+          "index": 8,
           "label": "LL"
         },
         {
           "type": "SH",
           "price": 4116.44,
           "time": "2026-07-29 16:00:00",
-          "index": 11,
+          "index": 9,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 4028.78,
           "time": "2026-07-30 04:00:00",
-          "index": 14,
+          "index": 12,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 4120.04,
           "time": "2026-07-30 12:00:00",
-          "index": 16,
+          "index": 14,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 4021.31,
           "time": "2026-07-31 12:00:00",
-          "index": 22,
+          "index": 20,
           "label": "LL"
         },
         {
           "type": "SH",
           "price": 4078.99,
           "time": "2026-08-03 00:00:00",
-          "index": 25,
+          "index": 23,
           "label": "LH"
         },
         {
           "type": "SL",
           "price": 4019.48,
           "time": "2026-08-03 12:00:00",
-          "index": 28,
+          "index": 26,
           "label": "LL"
         },
         {
           "type": "SH",
           "price": 4303.94,
           "time": "2026-08-06 00:00:00",
-          "index": 43,
+          "index": 41,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 4223.53,
           "time": "2026-08-06 16:00:00",
-          "index": 47,
+          "index": 45,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 4371.84,
           "time": "2026-08-07 12:00:00",
-          "index": 52,
+          "index": 50,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 4313.48,
           "time": "2026-08-10 00:00:00",
-          "index": 55,
+          "index": 53,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 4361.79,
           "time": "2026-08-10 04:00:00",
-          "index": 56,
+          "index": 54,
           "label": "LH"
         },
         {
           "type": "SL",
           "price": 4316.78,
           "time": "2026-08-10 12:00:00",
-          "index": 58,
+          "index": 56,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 4435.16,
           "time": "2026-08-11 00:00:00",
-          "index": 61,
+          "index": 59,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 4356.83,
           "time": "2026-08-11 04:00:00",
-          "index": 62,
+          "index": 60,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 4449.7,
           "time": "2026-08-13 00:00:00",
-          "index": 73,
+          "index": 71,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 4311.21,
           "time": "2026-08-14 04:00:00",
-          "index": 80,
+          "index": 78,
           "label": "LL"
         },
         {
           "type": "SH",
           "price": 4416.5,
           "time": "2026-08-17 00:00:00",
-          "index": 85,
+          "index": 83,
           "label": "LH"
         },
         {
           "type": "SL",
           "price": 4368.3,
           "time": "2026-08-17 00:00:00",
-          "index": 85,
+          "index": 83,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 4436.15,
           "time": "2026-08-18 00:00:00",
-          "index": 91,
+          "index": 89,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 4324.94,
           "time": "2026-08-19 00:00:00",
-          "index": 97,
+          "index": 95,
           "label": "LL"
         },
         {
           "type": "SH",
           "price": 4540.88,
           "time": "2026-08-20 12:00:00",
-          "index": 106,
+          "index": 104,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 4450.85,
           "time": "2026-08-20 12:00:00",
-          "index": 106,
+          "index": 104,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 4696.76,
           "time": "2026-08-25 00:00:00",
-          "index": 121,
+          "index": 119,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 4605.45,
           "time": "2026-08-25 12:00:00",
-          "index": 124,
+          "index": 122,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 4673.78,
           "time": "2026-08-25 20:00:00",
-          "index": 126,
+          "index": 124,
           "label": "LH"
         },
         {
           "type": "SL",
           "price": 4583.24,
           "time": "2026-08-26 12:00:00",
-          "index": 130,
+          "index": 128,
           "label": "LL"
         },
         {
           "type": "SH",
           "price": 4643.0,
           "time": "2026-08-27 00:00:00",
-          "index": 133,
+          "index": 131,
           "label": "LH"
         },
         {
           "type": "SL",
           "price": 4565.67,
           "time": "2026-08-27 12:00:00",
-          "index": 136,
+          "index": 134,
           "label": "LL"
         },
         {
           "type": "SH",
           "price": 4630.76,
           "time": "2026-08-28 12:00:00",
-          "index": 142,
+          "index": 140,
           "label": "LH"
         },
         {
           "type": "SL",
           "price": 4396.78,
           "time": "2026-08-31 00:00:00",
-          "index": 145,
+          "index": 143,
           "label": "LL"
         },
         {
           "type": "SH",
           "price": 4461.39,
           "time": "2026-09-01 00:00:00",
-          "index": 151,
+          "index": 149,
           "label": "LH"
         },
         {
           "type": "SL",
           "price": 4282.76,
           "time": "2026-09-02 00:00:00",
-          "index": 157,
+          "index": 155,
           "label": "LL"
         },
         {
           "type": "SH",
           "price": 4510.72,
           "time": "2026-09-03 12:00:00",
-          "index": 166,
+          "index": 164,
           "label": "HH"
         },
         {
           "type": "SL",
           "price": 4365.79,
           "time": "2026-09-04 12:00:00",
-          "index": 172,
+          "index": 170,
           "label": "HL"
         },
         {
           "type": "SH",
           "price": 4442.93,
           "time": "2026-09-08 04:00:00",
-          "index": 181,
+          "index": 179,
           "label": "LH"
         },
         {
           "type": "SL",
           "price": 4341.52,
           "time": "2026-09-09 00:00:00",
-          "index": 186,
+          "index": 184,
           "label": "LL"
         },
         {
           "type": "SH",
           "price": 4434.53,
           "time": "2026-09-10 04:00:00",
-          "index": 193,
+          "index": 191,
           "label": "LH"
         },
         {
           "type": "SL",
           "price": 4300.98,
           "time": "2026-09-11 00:00:00",
-          "index": 198,
+          "index": 196,
           "label": "LL"
         },
         {
           "type": "SH",
           "price": 4402.09,
           "time": "2026-09-11 12:00:00",
-          "index": 201,
+          "index": 199,
           "label": "LH"
         },
         {
           "type": "SL",
           "price": 4253.92,
           "time": "2026-09-14 12:00:00",
-          "index": 207,
+          "index": 205,
           "label": "LL"
         }
       ],
@@ -3644,269 +3597,269 @@
           "type": "SL",
           "price": 4010.55,
           "time": "2026-07-29 00:00:00",
-          "index": 7
+          "index": 5
         },
         {
           "type": "SH",
           "price": 4047.77,
           "time": "2026-07-29 04:00:00",
-          "index": 8
+          "index": 6
         },
         {
           "type": "SL",
           "price": 3996.07,
           "time": "2026-07-29 12:00:00",
-          "index": 10
+          "index": 8
         },
         {
           "type": "SH",
           "price": 4116.44,
           "time": "2026-07-29 16:00:00",
-          "index": 11
+          "index": 9
         },
         {
           "type": "SL",
           "price": 4028.78,
           "time": "2026-07-30 04:00:00",
-          "index": 14
+          "index": 12
         },
         {
           "type": "SH",
           "price": 4120.04,
           "time": "2026-07-30 12:00:00",
-          "index": 16
+          "index": 14
         },
         {
           "type": "SL",
           "price": 4021.31,
           "time": "2026-07-31 12:00:00",
-          "index": 22
+          "index": 20
         },
         {
           "type": "SH",
           "price": 4078.99,
           "time": "2026-08-03 00:00:00",
-          "index": 25
+          "index": 23
         },
         {
           "type": "SL",
           "price": 4019.48,
           "time": "2026-08-03 12:00:00",
-          "index": 28
+          "index": 26
         },
         {
           "type": "SH",
           "price": 4303.94,
           "time": "2026-08-06 00:00:00",
-          "index": 43
+          "index": 41
         },
         {
           "type": "SL",
           "price": 4223.53,
           "time": "2026-08-06 16:00:00",
-          "index": 47
+          "index": 45
         },
         {
           "type": "SH",
           "price": 4371.84,
           "time": "2026-08-07 12:00:00",
-          "index": 52
+          "index": 50
         },
         {
           "type": "SL",
           "price": 4313.48,
           "time": "2026-08-10 00:00:00",
-          "index": 55
+          "index": 53
         },
         {
           "type": "SH",
           "price": 4361.79,
           "time": "2026-08-10 04:00:00",
-          "index": 56
+          "index": 54
         },
         {
           "type": "SL",
           "price": 4316.78,
           "time": "2026-08-10 12:00:00",
-          "index": 58
+          "index": 56
         },
         {
           "type": "SH",
           "price": 4435.16,
           "time": "2026-08-11 00:00:00",
-          "index": 61
+          "index": 59
         },
         {
           "type": "SL",
           "price": 4356.83,
           "time": "2026-08-11 04:00:00",
-          "index": 62
+          "index": 60
         },
         {
           "type": "SH",
           "price": 4449.7,
           "time": "2026-08-13 00:00:00",
-          "index": 73
+          "index": 71
         },
         {
           "type": "SL",
           "price": 4311.21,
           "time": "2026-08-14 04:00:00",
-          "index": 80
+          "index": 78
         },
         {
           "type": "SH",
           "price": 4416.5,
           "time": "2026-08-17 00:00:00",
-          "index": 85
+          "index": 83
         },
         {
           "type": "SL",
           "price": 4368.3,
           "time": "2026-08-17 00:00:00",
-          "index": 85
+          "index": 83
         },
         {
           "type": "SH",
           "price": 4436.15,
           "time": "2026-08-18 00:00:00",
-          "index": 91
+          "index": 89
         },
         {
           "type": "SL",
           "price": 4324.94,
           "time": "2026-08-19 00:00:00",
-          "index": 97
+          "index": 95
         },
         {
           "type": "SH",
           "price": 4540.88,
           "time": "2026-08-20 12:00:00",
-          "index": 106
+          "index": 104
         },
         {
           "type": "SL",
           "price": 4450.85,
           "time": "2026-08-20 12:00:00",
-          "index": 106
+          "index": 104
         },
         {
           "type": "SH",
           "price": 4696.76,
           "time": "2026-08-25 00:00:00",
-          "index": 121
+          "index": 119
         },
         {
           "type": "SL",
           "price": 4605.45,
           "time": "2026-08-25 12:00:00",
-          "index": 124
+          "index": 122
         },
         {
           "type": "SH",
           "price": 4673.78,
           "time": "2026-08-25 20:00:00",
-          "index": 126
+          "index": 124
         },
         {
           "type": "SL",
           "price": 4583.24,
           "time": "2026-08-26 12:00:00",
-          "index": 130
+          "index": 128
         },
         {
           "type": "SH",
           "price": 4643.0,
           "time": "2026-08-27 00:00:00",
-          "index": 133
+          "index": 131
         },
         {
           "type": "SL",
           "price": 4565.67,
           "time": "2026-08-27 12:00:00",
-          "index": 136
+          "index": 134
         },
         {
           "type": "SH",
           "price": 4630.76,
           "time": "2026-08-28 12:00:00",
-          "index": 142
+          "index": 140
         },
         {
           "type": "SL",
           "price": 4396.78,
           "time": "2026-08-31 00:00:00",
-          "index": 145
+          "index": 143
         },
         {
           "type": "SH",
           "price": 4461.39,
           "time": "2026-09-01 00:00:00",
-          "index": 151
+          "index": 149
         },
         {
           "type": "SL",
           "price": 4282.76,
           "time": "2026-09-02 00:00:00",
-          "index": 157
+          "index": 155
         },
         {
           "type": "SH",
           "price": 4510.72,
           "time": "2026-09-03 12:00:00",
-          "index": 166
+          "index": 164
         },
         {
           "type": "SL",
           "price": 4365.79,
           "time": "2026-09-04 12:00:00",
-          "index": 172
+          "index": 170
         },
         {
           "type": "SH",
           "price": 4442.93,
           "time": "2026-09-08 04:00:00",
-          "index": 181
+          "index": 179
         },
         {
           "type": "SL",
           "price": 4341.52,
           "time": "2026-09-09 00:00:00",
-          "index": 186
+          "index": 184
         },
         {
           "type": "SH",
           "price": 4434.53,
           "time": "2026-09-10 04:00:00",
-          "index": 193
+          "index": 191
         },
         {
           "type": "SL",
           "price": 4300.98,
           "time": "2026-09-11 00:00:00",
-          "index": 198
+          "index": 196
         },
         {
           "type": "SH",
           "price": 4402.09,
           "time": "2026-09-11 12:00:00",
-          "index": 201
+          "index": 199
         },
         {
           "type": "SL",
           "price": 4253.92,
           "time": "2026-09-14 12:00:00",
-          "index": 207
+          "index": 205
         }
       ]
     }
   },
-  "last_retina_run": "2026-09-15T22:51:40.689044",
+  "last_retina_run": "2026-09-16T04:41:33.297147",
   "last_lgn_run": null,
   "equity": 1000.0,
   "daily_pnl_pips": 0.0,
   "daily_trades": 0,
   "last_reset_date": "2026-09-12",
-  "updated_at": "2026-09-16T02:33:22.352689",
+  "updated_at": "2026-09-16T04:41:33.297182",
   "last_daily_report": "2026-09-15"
 }
