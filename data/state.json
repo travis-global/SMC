@@ -1,24 +1,6 @@
 {
   "active_trades": [],
-  "active_signals": [
-    {
-      "pattern": "Confirmed Downtrend TL",
-      "direction": "short",
-      "slope": -0.00030285714285716026,
-      "touch_count": 3,
-      "status": "pending",
-      "source": "trendline",
-      "htf_bias": "unknown",
-      "confluence": [
-        "confirmed_tl",
-        "htf_unknown"
-      ],
-      "symbol": "GBPUSD",
-      "staged_at": "2026-09-15T19:40:04.925651",
-      "confirmed": false,
-      "id": "GBPUSD_Confirmed Downtrend TL_short_None"
-    }
-  ],
+  "active_signals": [],
   "closed_today": [],
   "per_symbol": {
     "EURUSD": {
@@ -3925,6 +3907,6 @@
   "daily_pnl_pips": 0.0,
   "daily_trades": 0,
   "last_reset_date": "2026-09-12",
-  "updated_at": "2026-09-15T23:52:07.403001",
+  "updated_at": "2026-09-16T02:33:22.352689",
   "last_daily_report": "2026-09-15"
 }
