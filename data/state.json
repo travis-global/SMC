@@ -4,23 +4,6 @@
     {
       "pattern": "Confirmed Downtrend TL",
       "direction": "short",
-      "slope": -0.00024727272727272223,
-      "touch_count": 3,
-      "status": "pending",
-      "source": "trendline",
-      "htf_bias": "bearish",
-      "confluence": [
-        "confirmed_tl",
-        "htf_bearish"
-      ],
-      "symbol": "EURUSD",
-      "staged_at": "2026-09-21T20:23:54.604886",
-      "confirmed": false,
-      "id": "EURUSD_Confirmed Downtrend TL_short_None"
-    },
-    {
-      "pattern": "Confirmed Downtrend TL",
-      "direction": "short",
       "slope": -0.01820111111111089,
       "touch_count": 3,
       "status": "pending",
@@ -6136,6 +6119,6 @@
   "daily_pnl_pips": 0.0,
   "daily_trades": 0,
   "last_reset_date": "2026-09-12",
-  "updated_at": "2026-09-22T04:44:02.551535",
+  "updated_at": "2026-09-22T06:11:04.045719",
   "last_daily_report": "2026-09-21"
 }
