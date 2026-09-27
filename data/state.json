@@ -1,24 +1,6 @@
 {
   "active_trades": [],
-  "active_signals": [
-    {
-      "pattern": "Confirmed Downtrend TL",
-      "direction": "short",
-      "slope": -0.0013541176470589695,
-      "touch_count": 3,
-      "status": "pending",
-      "source": "trendline",
-      "htf_bias": "unknown",
-      "confluence": [
-        "confirmed_tl",
-        "htf_unknown"
-      ],
-      "symbol": "USDJPY",
-      "staged_at": "2026-09-27T05:10:17.727549",
-      "confirmed": false,
-      "id": "USDJPY_Confirmed Downtrend TL_short_None"
-    }
-  ],
+  "active_signals": [],
   "closed_today": [],
   "per_symbol": {
     "EURUSD": {
@@ -5909,7 +5891,7 @@
   "equity": 1000.0,
   "daily_pnl_pips": 0.0,
   "daily_trades": 0,
-  "last_reset_date": "2026-09-12",
-  "updated_at": "2026-09-27T07:23:07.531506",
+  "last_reset_date": "2026-09-27",
+  "updated_at": "2026-09-27T13:10:55.599264",
   "last_daily_report": "2026-09-26"
 }
