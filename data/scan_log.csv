@@ -1,0 +1,5 @@
+timestamp,symbol,data_source,order_blocks,trendlines,confirmed_trendlines,signals_staged
+2026-09-27T13:52:01.470686,EURUSD,synthetic,54,2,0,0
+2026-09-27T13:52:06.574350,GBPUSD,synthetic,45,2,0,0
+2026-09-27T13:52:11.685880,USDJPY,synthetic,52,2,0,0
+2026-09-27T13:52:16.807310,XAUUSD,synthetic,46,2,1,1
