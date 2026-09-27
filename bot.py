@@ -196,6 +196,13 @@ def run_h4_mode():
                 "signals": fresh_staged,
             })
 
+            try:
+                from utils.daily_log import log_scan_cycle
+                log_scan_cycle(symbol, data_source, obs, tls, confirmed,
+                               len(fresh_staged))
+            except Exception as e:
+                print(f"[H4] {symbol} — scan log write failed: {e}")
+
         except Exception as e:
             print(f"[H4] {symbol} error: {e}")
             traceback.print_exc()
