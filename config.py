@@ -100,6 +100,16 @@ MONITOR_INTERVAL_SEC  = 60
 DERIV_APP_ID          = os.getenv("DERIV_APP_ID", "1089")
 USE_DEMO              = True        # stay on demo until edge is proven
 
+# Deriv multiplier contracts (MULTUP/MULTDOWN) need these two values.
+# MULTIPLIER: verify the max allowed for each symbol via the `contracts_for`
+#   API before raising this — Deriv caps it per-symbol and it silently
+#   rejects the trade (or clamps it) if you ask for too much.
+# ACCOUNT_CURRENCY: must match your Deriv account's currency EXACTLY
+#   (check the account settings page) or every proposal request will
+#   be rejected.
+MULTIPLIER            = int(os.getenv("DERIV_MULTIPLIER", "100"))
+ACCOUNT_CURRENCY       = os.getenv("DERIV_CURRENCY", "USD")
+
 # =========================================================
 # SL BUFFER (in pips — converted to price units inside code)
 # =========================================================

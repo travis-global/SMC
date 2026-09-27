@@ -31,6 +31,12 @@ FORCE_SYNTHETIC = os.getenv("FORCE_SYNTHETIC", "0") == "1"
 HAS_TOKEN = bool(DERIV_TOKEN) and not FORCE_SYNTHETIC
 
 try:
+    from config import MULTIPLIER, ACCOUNT_CURRENCY
+except ImportError:
+    MULTIPLIER = int(os.getenv("DERIV_MULTIPLIER", "100"))
+    ACCOUNT_CURRENCY = os.getenv("DERIV_CURRENCY", "USD")
+
+try:
     import requests
     HAS_REQUESTS = True
 except ImportError:
@@ -246,37 +252,182 @@ def get_latest_candle(symbol: str, timeframe: str = "M15") -> Optional[Dict]:
     return data[-1] if data else None
 
 
+class _DerivWSError(Exception):
+    pass
+
+
+def _ws_recv_until(ws, expect_keys, timeout: float = 15.0) -> dict:
+    """
+    Read messages off an open connection until one contains any of
+    expect_keys (e.g. "authorize", "proposal", "buy", "sell"), or an
+    "error" envelope arrives, or timeout elapses.
+    """
+    ws.settimeout(timeout)
+    deadline = time.time() + timeout
+    while time.time() < deadline:
+        msg = ws.recv()
+        data = json.loads(msg)
+        if "error" in data:
+            raise _DerivWSError(data["error"].get("message", str(data["error"])))
+        if any(k in data for k in expect_keys):
+            return data
+    raise _DerivWSError(f"Timed out waiting for {expect_keys}")
+
+
+def _authorize(ws):
+    ws.send(json.dumps({"authorize": DERIV_TOKEN}))
+    resp = _ws_recv_until(ws, ["authorize"])
+    return resp["authorize"]
+
+
+def _pct_distance(entry: float, level: float) -> float:
+    if not entry:
+        return 0.0
+    return abs(level - entry) / entry
+
+
 def place_order(symbol: str, direction: str, stake: float = 0.01,
                 entry: float = None, sl: float = None,
                 tp: float = None) -> Tuple[bool, Dict]:
-    if HAS_TOKEN:
-        print(f"[Deriv] TOKEN present — would place LIVE {direction.upper()} "
+    """
+    Places a real MULTUP/MULTDOWN contract on Deriv when a token is
+    present and reachable. Returns (True, {...}) ONLY when Deriv has
+    actually confirmed a contract_id back — never on a guess. Falls
+    back to an explicitly-labeled simulation if the token is missing,
+    the socket fails, or Deriv rejects the request.
+    """
+    if not HAS_TOKEN:
+        print(f"[Deriv] No token — SIMULATED place_order {direction.upper()} "
               f"{symbol} stake={stake} entry={entry} SL={sl} TP={tp}")
         return True, {
-            "contract_id": f"LIVE_READY_{datetime.utcnow().strftime('%Y%m%d%H%M%S')}",
-            "status": "token_present_simulated",
+            "contract_id": f"SIM_{datetime.utcnow().strftime('%Y%m%d%H%M%S')}",
+            "status": "simulated_no_token",
             "entry": entry, "sl": sl, "tp": tp,
         }
 
-    print(f"[Deriv] SIMULATED place_order {direction.upper()} {symbol} "
-          f"stake={stake} entry={entry} SL={sl} TP={tp}")
-    return True, {
-        "contract_id": f"SIM_{datetime.utcnow().strftime('%Y%m%d%H%M%S')}",
-        "status": "simulated",
-        "entry": entry, "sl": sl, "tp": tp,
-    }
+    if not HAS_WS:
+        print("[Deriv] websocket-client not installed — cannot place a real order")
+        return False, {"error": "websocket-client not installed"}
+
+    deriv_symbol = _to_deriv_symbol(symbol)
+    contract_type = "MULTUP" if direction == "long" else "MULTDOWN"
+
+    limit_order = {}
+    if sl is not None and entry:
+        limit_order["stop_loss"] = round(stake * MULTIPLIER * _pct_distance(entry, sl), 2)
+    if tp is not None and entry:
+        limit_order["take_profit"] = round(stake * MULTIPLIER * _pct_distance(entry, tp), 2)
+
+    ws_url = f"wss://ws.binaryws.com/websockets/v3?app_id={DERIV_APP_ID}"
+    try:
+        ws = websocket.create_connection(ws_url, timeout=15)
+        try:
+            auth = _authorize(ws)
+            if DERIV_ACCOUNT and auth.get("loginid") != DERIV_ACCOUNT:
+                raise _DerivWSError(
+                    f"Authorized account {auth.get('loginid')} does not match "
+                    f"DERIV_ACCOUNT={DERIV_ACCOUNT} — refusing to trade"
+                )
+
+            proposal_req = {
+                "proposal": 1,
+                "amount": stake,
+                "basis": "stake",
+                "contract_type": contract_type,
+                "currency": ACCOUNT_CURRENCY,
+                "multiplier": MULTIPLIER,
+                "symbol": deriv_symbol,
+            }
+            if limit_order:
+                proposal_req["limit_order"] = limit_order
+
+            ws.send(json.dumps(proposal_req))
+            prop_resp = _ws_recv_until(ws, ["proposal"])
+            proposal = prop_resp["proposal"]
+            proposal_id = proposal["id"]
+            ask_price = proposal["ask_price"]
+
+            ws.send(json.dumps({"buy": proposal_id, "price": ask_price}))
+            buy_resp = _ws_recv_until(ws, ["buy"])
+            buy = buy_resp["buy"]
+
+            contract_id = buy.get("contract_id")
+            if not contract_id:
+                raise _DerivWSError(f"Buy confirmed but no contract_id in response: {buy}")
+
+            print(f"[Deriv] LIVE order placed: {direction.upper()} {symbol} "
+                  f"contract_id={contract_id} stake={stake} multiplier={MULTIPLIER}")
+            return True, {
+                "contract_id": contract_id,
+                "status": "live",
+                "buy_price": buy.get("buy_price"),
+                "payout": buy.get("payout"),
+                "entry": entry, "sl": sl, "tp": tp,
+            }
+        finally:
+            ws.close()
+
+    except Exception as e:
+        print(f"[Deriv] LIVE place_order FAILED for {symbol}: {e} — "
+              f"NOT placed, falling back to simulated record")
+        return False, {"error": str(e), "status": "live_failed"}
 
 
 def close_position(trade: dict) -> Tuple[bool, Optional[Dict]]:
-    if HAS_TOKEN:
-        print(f"[Deriv] TOKEN present — would close LIVE {trade.get('id')}")
-        return True, {"sold_for": trade.get("entry"), "status": "token_present_simulated"}
-    print(f"[Deriv] SIMULATED close_position {trade.get('id')}")
-    return True, {"sold_for": trade.get("entry")}
+    """
+    Closes a real Deriv contract by its contract_id. Requires trade to
+    carry the contract_id Deriv gave us at buy time — NOT our internal
+    V1 record id, which Deriv has never heard of.
+    """
+    contract_id = trade.get("contract_id")
+
+    if not HAS_TOKEN:
+        print(f"[Deriv] No token — SIMULATED close_position {trade.get('id')}")
+        return True, {"sold_for": trade.get("entry"), "status": "simulated_no_token"}
+
+    if not contract_id or str(contract_id).startswith("SIM_"):
+        print(f"[Deriv] Trade {trade.get('id')} has no real contract_id "
+              f"(was never actually placed) — nothing to close on Deriv")
+        return True, {"sold_for": trade.get("entry"), "status": "no_real_contract"}
+
+    if not HAS_WS:
+        print("[Deriv] websocket-client not installed — cannot close on Deriv")
+        return False, {"error": "websocket-client not installed"}
+
+    ws_url = f"wss://ws.binaryws.com/websockets/v3?app_id={DERIV_APP_ID}"
+    try:
+        ws = websocket.create_connection(ws_url, timeout=15)
+        try:
+            _authorize(ws)
+            ws.send(json.dumps({"sell": contract_id, "price": 0}))
+            sell_resp = _ws_recv_until(ws, ["sell"])
+            sell = sell_resp["sell"]
+            print(f"[Deriv] LIVE close confirmed: contract_id={contract_id} "
+                  f"sold_for={sell.get('sold_for')}")
+            return True, {"sold_for": sell.get("sold_for"), "status": "live"}
+        finally:
+            ws.close()
+
+    except Exception as e:
+        print(f"[Deriv] LIVE close_position FAILED for contract_id={contract_id}: {e}")
+        return False, {"error": str(e), "status": "live_failed"}
 
 
 def get_balance() -> Optional[float]:
-    return None
+    if not HAS_TOKEN or not HAS_WS:
+        return None
+    ws_url = f"wss://ws.binaryws.com/websockets/v3?app_id={DERIV_APP_ID}"
+    try:
+        ws = websocket.create_connection(ws_url, timeout=15)
+        try:
+            auth = _authorize(ws)
+            bal = auth.get("balance")
+            return float(bal) if bal is not None else None
+        finally:
+            ws.close()
+    except Exception as e:
+        print(f"[Deriv] get_balance failed: {e}")
+        return None
 
 
 def status() -> dict:

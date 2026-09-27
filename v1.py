@@ -214,13 +214,17 @@ def _place_order(symbol: str, direction: str, entry: float,
     """
     try:
         from utils.deriv_client import place_order
-        return place_order(symbol, direction, stake=lot,
-                           entry=entry, sl=sl, tp=tp)
-    except Exception as e:
-        # Simulation mode (for testing before live wiring)
-        print(f"  [SIM] Would place {direction} {symbol} "
-              f"lot={lot} entry={entry:.5f} SL={sl:.5f} TP={tp:.5f}")
+    except ImportError as e:
+        # deriv_client module itself missing — genuine simulation mode
+        print(f"  [SIM] deriv_client unavailable ({e}) — Would place "
+              f"{direction} {symbol} lot={lot} entry={entry:.5f} "
+              f"SL={sl:.5f} TP={tp:.5f}")
         return True, {"simulated": True, "error": None}
+
+    # A real failure inside place_order returns (False, {...}) itself —
+    # do NOT catch broadly here, or a genuine live failure gets silently
+    # relabeled as a fake success.
+    return place_order(symbol, direction, stake=lot, entry=entry, sl=sl, tp=tp)
 
 
 # =========================================================
@@ -232,6 +236,7 @@ def _build_trade_record(signal, entry, sl, tp, rr, placed, order_result,
     return {
         "id": f"V1_{signal['pattern']}_{signal['direction']}_"
               f"{datetime.utcnow().strftime('%Y%m%d%H%M%S')}",
+        "contract_id": (order_result or {}).get("contract_id"),
         "symbol": symbol,
         "source": "V1",
         "pattern": signal["pattern"],

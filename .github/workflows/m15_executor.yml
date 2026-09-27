@@ -23,7 +23,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests python-dateutil websocket-client
+        run: pip install -r requirements.txt
 
       - name: Run M15 executor
         env:

@@ -110,17 +110,22 @@ def generate_ohlc_data_live(symbol="EURUSD", timeframe_str="H4", num_candles=300
     """
     Fetch live candles from Deriv API.
     Falls back to synthetic data if Deriv is unavailable.
+
+    Returns (data, source) where source is "live" or "synthetic" — callers
+    should surface this, since silently running on synthetic candles for
+    days looks identical to a quiet market otherwise.
     """
     try:
-        from utils.deriv_client import fetch_candles
-        data = fetch_candles(symbol, timeframe=timeframe_str, count=num_candles)
-        if data:
-            return data
+        from utils.deriv_client import HAS_TOKEN, _fetch_candles_live
+        data = _fetch_candles_live(symbol, timeframe_str, num_candles)
+        if data and len(data) > 10:
+            return data, "live"
     except Exception as e:
-        print(f"[Retina] Deriv fetch failed: {e}")
+        print(f"[Retina] Deriv live fetch failed for {symbol}: {e}")
 
-    print(f"[Retina] Using synthetic data for {symbol}")
-    return generate_ohlc_data(num_candles)
+    print(f"[Retina] Using SYNTHETIC data for {symbol} — "
+          f"this is placeholder data, not the real market")
+    return generate_ohlc_data(num_candles), "synthetic"
 
 
 # =========================================================
@@ -146,9 +151,11 @@ def run_retina(data=None, symbol="EURUSD", timeframe="H4"):
     LOOKBACK = 300
 
     # 1. Get candles
+    data_source = "external"  # caller supplied `data` directly (e.g. tests)
     if data is None:
-        data = generate_ohlc_data_live(symbol=symbol, timeframe_str=timeframe,
-                                       num_candles=LOOKBACK)
+        data, data_source = generate_ohlc_data_live(
+            symbol=symbol, timeframe_str=timeframe, num_candles=LOOKBACK
+        )
 
     if not data or len(data) < 30:
         print("[Retina] Not enough candles to analyse")
@@ -173,6 +180,7 @@ def run_retina(data=None, symbol="EURUSD", timeframe="H4"):
     return {
         "symbol":               symbol,
         "timeframe":            timeframe,
+        "data_source":          data_source,
         "data":                 data,
         "swings":               swings,
         "structure":            structure,

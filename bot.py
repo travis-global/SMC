@@ -49,6 +49,7 @@ except ImportError:
         from utils.state import (
             load_state, save_state,
             get_active_trades, register_trade, update_active_trades,
+            reset_daily_if_needed,
         )
     except ImportError:
         # Absolute minimum fallback — still writes data/state.json
@@ -88,6 +89,15 @@ except ImportError:
         def update_active_trades(state, still_active, closed_now):
             return state
 
+        def reset_daily_if_needed(state):
+            today = datetime.utcnow().strftime("%Y-%m-%d")
+            if state.get("last_reset_date") != today:
+                state["daily_pnl_pips"] = 0.0
+                state["daily_trades"] = 0
+                state["last_reset_date"] = today
+                print("[State] New day — daily counters reset (fallback path)")
+            return state
+
 try:
     from utils.telegram_notifier import (
         notify_h1_complete, notify_m5_summary, notify_error,
@@ -125,6 +135,8 @@ def run_h4_mode():
         state.setdefault("per_symbol", {})
         state.setdefault("active_signals", [])
 
+    state = reset_daily_if_needed(state)
+
     symbol_results = []
 
     for symbol in SYMBOLS:
@@ -135,7 +147,12 @@ def run_h4_mode():
             obs = len(retina_result.get("order_blocks", []))
             tls = len(retina_result.get("trendlines", []))
             confirmed = len(retina_result.get("confirmed_trendlines", []))
-            print(f"[H4] {symbol} — OBs:{obs}  Trendlines:{tls}  Confirmed:{confirmed}")
+            data_source = retina_result.get("data_source", "unknown")
+            print(f"[H4] {symbol} — source:{data_source}  OBs:{obs}  "
+                  f"Trendlines:{tls}  Confirmed:{confirmed}")
+            if data_source == "synthetic":
+                print(f"[H4] {symbol} — WARNING: running on SYNTHETIC data, "
+                      f"not the real market. Every signal this cycle is fake.")
 
             # Stage LGN signals (only OB + confirmed Trendlines)
             lgn_signals = run_lgn(retina_result, symbol=symbol)
@@ -152,6 +169,7 @@ def run_h4_mode():
                     "confirmed_trendlines": retina_result.get("confirmed_trendlines", []),
                     "structure":            retina_result.get("structure", []),
                     "swings":               retina_result.get("swings", []),
+                    "data_source":          data_source,
                 }
 
             existing_ids = {s.get("id") for s in state.get("active_signals", [])}
@@ -186,6 +204,32 @@ def run_h4_mode():
                 email_error(f"H4 {symbol}", str(e))
             except Exception:
                 pass
+
+    all_synthetic = bool(symbol_results) and all(
+        state.get("per_symbol", {}).get(r["symbol"], {}).get("data_source") == "synthetic"
+        for r in symbol_results
+    )
+    if all_synthetic:
+        state["synthetic_streak"] = state.get("synthetic_streak", 0) + 1
+    else:
+        state["synthetic_streak"] = 0
+
+    # Every symbol synthetic for 3+ H4 cycles in a row (~12h) means the
+    # live Deriv feed is down or blocked from this runner — not a quiet
+    # market. Alert once per day so it doesn't get lost in Action logs.
+    if state["synthetic_streak"] >= 3:
+        today = datetime.utcnow().strftime("%Y-%m-%d")
+        if state.get("last_synthetic_alert") != today:
+            msg = (f"All {len(symbol_results)} symbols have been on SYNTHETIC "
+                   f"data for {state['synthetic_streak']} straight H4 cycles. "
+                   f"The live Deriv feed is failing or blocked — every signal "
+                   f"in this window is fake, not the real market.")
+            print(f"[H4] ALERT: {msg}")
+            try:
+                email_error("Synthetic data streak", msg)
+            except Exception:
+                pass
+            state["last_synthetic_alert"] = today
 
     state["last_retina_run"] = datetime.utcnow().isoformat()
 
@@ -242,6 +286,8 @@ def run_m15_mode():
         state = load_full_state()
     else:
         state = load_state()
+
+    state = reset_daily_if_needed(state)
 
     now = datetime.utcnow()
 
