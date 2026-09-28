@@ -231,6 +231,12 @@ def run_h4_mode():
                    f"data for {state['synthetic_streak']} straight H4 cycles. "
                    f"The live Deriv feed is failing or blocked — every signal "
                    f"in this window is fake, not the real market.")
+            try:
+                from utils.deriv_client import LAST_ERROR
+                if LAST_ERROR.get("msg"):
+                    msg += f" Last error: {LAST_ERROR['msg']}"
+            except Exception:
+                pass
             print(f"[H4] ALERT: {msg}")
             try:
                 email_error("Synthetic data streak", msg)

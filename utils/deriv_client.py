@@ -50,6 +50,34 @@ except ImportError:
 
 
 # -------------------------------------------------
+# WebSocket hosts
+# -------------------------------------------------
+# Deriv's docs moved from ws.binaryws.com to ws.derivws.com. Try the
+# current host first, fall back to the legacy one. Override with
+# DERIV_WS_HOST if Deriv changes it again.
+WS_HOSTS = [h for h in (
+    os.getenv("DERIV_WS_HOST", "").strip(),
+    "ws.derivws.com",
+    "ws.binaryws.com",
+) if h]
+
+# Last live-fetch failure reason from this run — surfaced in the
+# synthetic-data alert email so you see WHY, not just THAT.
+LAST_ERROR = {"msg": ""}
+
+
+def _ws_url(host: str = None) -> str:
+    return f"wss://{host or WS_HOSTS[0]}/websockets/v3?app_id={DERIV_APP_ID}"
+
+
+def _record_error(msg: str):
+    # Keep every host's failure (short) so the alert shows all of them
+    short = msg if len(msg) <= 160 else msg[:160] + "…"
+    LAST_ERROR["msg"] = f'{LAST_ERROR["msg"]} | {short}'.strip(" |")[-500:]
+    print(f"[Deriv] {msg}")
+
+
+# -------------------------------------------------
 # Maps
 # -------------------------------------------------
 SYMBOL_MAP = {
@@ -78,19 +106,27 @@ def _to_deriv_symbol(symbol: str) -> str:
 # -------------------------------------------------
 def _fetch_candles_live(symbol: str, timeframe: str, count: int) -> Optional[List[Dict]]:
     """
-    Pull real OHLC candles from Deriv public WebSocket.
-    Market data does not require an API token.
+    Pull real OHLC candles from Deriv public WebSocket, trying each host
+    in WS_HOSTS until one works. Market data does not require a token.
     """
     if FORCE_SYNTHETIC:
         return None
 
     if not HAS_WS:
-        print("[Deriv] websocket-client not installed — cannot fetch live candles")
+        _record_error("websocket-client not installed — cannot fetch live candles")
         return None
 
+    for host in WS_HOSTS:
+        out = _fetch_candles_once(symbol, timeframe, count, _ws_url(host), host)
+        if out:
+            return out
+    return None
+
+
+def _fetch_candles_once(symbol: str, timeframe: str, count: int,
+                        ws_url: str, host: str) -> Optional[List[Dict]]:
     deriv_symbol = _to_deriv_symbol(symbol)
     granularity = TF_SECONDS.get(timeframe, 14400)
-    ws_url = f"wss://ws.binaryws.com/websockets/v3?app_id={DERIV_APP_ID}"
 
     request = {
         "ticks_history": deriv_symbol,
@@ -116,12 +152,12 @@ def _fetch_candles_live(symbol: str, timeframe: str, count: int) -> Optional[Lis
         ws.close()
 
         if raw is None:
-            print(f"[Deriv] No candle response for {symbol}")
+            _record_error(f"{host}: no candle response for {symbol}")
             return None
 
         if "error" in raw:
             err = raw["error"].get("message", raw["error"])
-            print(f"[Deriv] API error for {symbol}: {err}")
+            _record_error(f"{host}: API error for {symbol}: {err}")
             return None
 
         candles_raw = raw.get("candles") or []
@@ -161,7 +197,7 @@ def _fetch_candles_live(symbol: str, timeframe: str, count: int) -> Optional[Lis
         return out
 
     except Exception as e:
-        print(f"[Deriv] live candle fetch failed ({symbol}): {e}")
+        _record_error(f"{host}: connection failed for {symbol}: {e}")
         return None
 
 
@@ -318,7 +354,7 @@ def place_order(symbol: str, direction: str, stake: float = 0.01,
     if tp is not None and entry:
         limit_order["take_profit"] = round(stake * MULTIPLIER * _pct_distance(entry, tp), 2)
 
-    ws_url = f"wss://ws.binaryws.com/websockets/v3?app_id={DERIV_APP_ID}"
+    ws_url = _ws_url()
     try:
         ws = websocket.create_connection(ws_url, timeout=15)
         try:
@@ -394,7 +430,7 @@ def close_position(trade: dict) -> Tuple[bool, Optional[Dict]]:
         print("[Deriv] websocket-client not installed — cannot close on Deriv")
         return False, {"error": "websocket-client not installed"}
 
-    ws_url = f"wss://ws.binaryws.com/websockets/v3?app_id={DERIV_APP_ID}"
+    ws_url = _ws_url()
     try:
         ws = websocket.create_connection(ws_url, timeout=15)
         try:
@@ -416,7 +452,7 @@ def close_position(trade: dict) -> Tuple[bool, Optional[Dict]]:
 def get_balance() -> Optional[float]:
     if not HAS_TOKEN or not HAS_WS:
         return None
-    ws_url = f"wss://ws.binaryws.com/websockets/v3?app_id={DERIV_APP_ID}"
+    ws_url = _ws_url()
     try:
         ws = websocket.create_connection(ws_url, timeout=15)
         try:
