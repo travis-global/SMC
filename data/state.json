@@ -4,40 +4,6 @@
     {
       "pattern": "Confirmed Uptrend TL",
       "direction": "long",
-      "slope": 5.999999999998599e-05,
-      "touch_count": 3,
-      "status": "pending",
-      "source": "trendline",
-      "htf_bias": "bullish",
-      "confluence": [
-        "confirmed_tl",
-        "htf_bullish"
-      ],
-      "symbol": "GBPUSD",
-      "staged_at": "2026-09-29T10:36:51.724800",
-      "confirmed": false,
-      "id": "GBPUSD_Confirmed Uptrend TL_long_None"
-    },
-    {
-      "pattern": "Confirmed Downtrend TL",
-      "direction": "short",
-      "slope": -8.625000000000993e-05,
-      "touch_count": 3,
-      "status": "pending",
-      "source": "trendline",
-      "htf_bias": "bearish",
-      "confluence": [
-        "confirmed_tl",
-        "htf_bearish"
-      ],
-      "symbol": "USDJPY",
-      "staged_at": "2026-09-29T10:37:02.209571",
-      "confirmed": false,
-      "id": "USDJPY_Confirmed Downtrend TL_short_None"
-    },
-    {
-      "pattern": "Confirmed Uptrend TL",
-      "direction": "long",
       "slope": 0.0004175000000000151,
       "touch_count": 4,
       "status": "pending",
@@ -6041,7 +6007,7 @@
   "daily_pnl_pips": 0.0,
   "daily_trades": 0,
   "last_reset_date": "2026-09-29",
-  "updated_at": "2026-09-29T18:02:52.247119",
+  "updated_at": "2026-09-29T19:23:30.607318",
   "last_daily_report": "2026-09-28",
   "synthetic_streak": 8,
   "last_synthetic_alert": "2026-09-29"
