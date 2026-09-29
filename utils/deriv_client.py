@@ -70,6 +70,22 @@ def _ws_url(host: str = None) -> str:
     return f"wss://{host or WS_HOSTS[0]}/websockets/v3?app_id={DERIV_APP_ID}"
 
 
+# Deriv sits behind Cloudflare. websocket-client's default handshake has
+# no User-Agent/Origin, which Cloudflare's bot rules can reject outright
+# (seen as a 520 from every host, for every symbol, at once) — especially
+# from shared datacenter IP ranges like GitHub Actions runners. A
+# browser-shaped handshake clears that in most cases.
+_WS_HEADERS = [
+    "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+    "Origin: https://app.deriv.com",
+]
+
+
+def _connect(ws_url: str, timeout: float = 15):
+    return websocket.create_connection(ws_url, timeout=timeout, header=_WS_HEADERS)
+
+
 def _record_error(msg: str):
     # Keep every host's failure (short) so the alert shows all of them
     short = msg if len(msg) <= 160 else msg[:160] + "…"
@@ -138,7 +154,7 @@ def _fetch_candles_once(symbol: str, timeframe: str, count: int,
     }
 
     try:
-        ws = websocket.create_connection(ws_url, timeout=15)
+        ws = _connect(ws_url)
         ws.send(json.dumps(request))
 
         # Read until we get the candles response (skip any ping/authorize noise)
@@ -356,7 +372,7 @@ def place_order(symbol: str, direction: str, stake: float = 0.01,
 
     ws_url = _ws_url()
     try:
-        ws = websocket.create_connection(ws_url, timeout=15)
+        ws = _connect(ws_url)
         try:
             auth = _authorize(ws)
             if DERIV_ACCOUNT and auth.get("loginid") != DERIV_ACCOUNT:
@@ -432,7 +448,7 @@ def close_position(trade: dict) -> Tuple[bool, Optional[Dict]]:
 
     ws_url = _ws_url()
     try:
-        ws = websocket.create_connection(ws_url, timeout=15)
+        ws = _connect(ws_url)
         try:
             _authorize(ws)
             ws.send(json.dumps({"sell": contract_id, "price": 0}))
@@ -454,7 +470,7 @@ def get_balance() -> Optional[float]:
         return None
     ws_url = _ws_url()
     try:
-        ws = websocket.create_connection(ws_url, timeout=15)
+        ws = _connect(ws_url)
         try:
             auth = _authorize(ws)
             bal = auth.get("balance")
