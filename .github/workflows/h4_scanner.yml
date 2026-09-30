@@ -25,37 +25,6 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: TEMP DIAGNOSTIC - raw connectivity to Deriv
-        run: |
-          {
-          echo "=== Runner outbound IP ==="
-          curl -s https://api.ipify.org || true
-          echo ""
-          echo "=== curl -sv https://deriv.com ==="
-          curl -sv -o /dev/null https://deriv.com 2>&1 | tail -20
-          echo "=== curl -sv https://ws.derivws.com (WS host over HTTPS) ==="
-          curl -sv -o /dev/null "https://ws.derivws.com/websockets/v3?app_id=1089" 2>&1 | tail -20
-          echo "=== curl -sv https://ws.binaryws.com (legacy WS host over HTTPS) ==="
-          curl -sv -o /dev/null "https://ws.binaryws.com/websockets/v3?app_id=1089" 2>&1 | tail -20
-          echo "=== python websocket-client handshake ==="
-          cat > /tmp/diag_ws.py << 'PYEOF'
-          import websocket
-          for host in ['ws.derivws.com', 'ws.binaryws.com']:
-              url = f'wss://{host}/websockets/v3?app_id=1089'
-              try:
-                  ws = websocket.create_connection(url, timeout=10, header=[
-                      'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36',
-                      'Origin: https://app.deriv.com',
-                  ])
-                  print(host, '-> CONNECTED')
-                  ws.close()
-              except Exception as e:
-                  print(host, '-> FAILED:', repr(e))
-          PYEOF
-          python3 /tmp/diag_ws.py
-          } > data/diag_output.txt 2>&1
-          cat data/diag_output.txt
-
       - name: Run H4 scanner
         env:
           DERIV_TOKEN: ${{ secrets.DERIV_TOKEN }}
