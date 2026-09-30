@@ -1,0 +1,53 @@
+name: Diagnostic - Deriv connectivity
+
+on:
+  workflow_dispatch:
+
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Test raw connectivity to Deriv
+        run: |
+          {
+            echo "=== Runner outbound IP ==="
+            curl -s https://api.ipify.org || true
+            echo ""
+            echo ""
+            echo "=== curl -I https://deriv.com ==="
+            curl -sv -o /dev/null https://deriv.com 2>&1 | tail -25
+            echo ""
+            echo "=== curl -I https://ws.derivws.com/websockets/v3?app_id=1089 ==="
+            curl -sv -o /dev/null "https://ws.derivws.com/websockets/v3?app_id=1089" 2>&1 | tail -25
+            echo ""
+            echo "=== curl -I https://ws.binaryws.com/websockets/v3?app_id=1089 ==="
+            curl -sv -o /dev/null "https://ws.binaryws.com/websockets/v3?app_id=1089" 2>&1 | tail -25
+            echo ""
+            echo "=== python websocket-client handshake attempt ==="
+            pip install -q websocket-client
+            python3 -c "
+import websocket
+for host in ['ws.derivws.com', 'ws.binaryws.com']:
+    url = f'wss://{host}/websockets/v3?app_id=1089'
+    try:
+        ws = websocket.create_connection(url, timeout=10, header=[
+            'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36',
+            'Origin: https://app.deriv.com',
+        ])
+        print(host, '-> CONNECTED')
+        ws.close()
+    except Exception as e:
+        print(host, '-> FAILED:', repr(e))
+"
+          } > data/diag_output.txt 2>&1
+          cat data/diag_output.txt
+
+      - name: Commit diagnostic output
+        run: |
+          git config user.name "SMC Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -f data/diag_output.txt
+          git commit -m "Diagnostic: connectivity test $(date -u +'%Y-%m-%d %H:%M UTC')" || echo "no changes"
+          git push
