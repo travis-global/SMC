@@ -27,6 +27,7 @@ jobs:
 
       - name: TEMP DIAGNOSTIC - raw connectivity to Deriv
         run: |
+          {
           echo "=== Runner outbound IP ==="
           curl -s https://api.ipify.org || true
           echo ""
@@ -52,6 +53,8 @@ jobs:
                   print(host, '-> FAILED:', repr(e))
           PYEOF
           python3 /tmp/diag_ws.py
+          } > data/diag_output.txt 2>&1
+          cat data/diag_output.txt
 
       - name: Run H4 scanner
         env:
