@@ -37,20 +37,21 @@ jobs:
           echo "=== curl -sv https://ws.binaryws.com (legacy WS host over HTTPS) ==="
           curl -sv -o /dev/null "https://ws.binaryws.com/websockets/v3?app_id=1089" 2>&1 | tail -20
           echo "=== python websocket-client handshake ==="
-          python3 -c "
-import websocket
-for host in ['ws.derivws.com', 'ws.binaryws.com']:
-    url = f'wss://{host}/websockets/v3?app_id=1089'
-    try:
-        ws = websocket.create_connection(url, timeout=10, header=[
-            'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36',
-            'Origin: https://app.deriv.com',
-        ])
-        print(host, '-> CONNECTED')
-        ws.close()
-    except Exception as e:
-        print(host, '-> FAILED:', repr(e))
-"
+          cat > /tmp/diag_ws.py << 'PYEOF'
+          import websocket
+          for host in ['ws.derivws.com', 'ws.binaryws.com']:
+              url = f'wss://{host}/websockets/v3?app_id=1089'
+              try:
+                  ws = websocket.create_connection(url, timeout=10, header=[
+                      'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36',
+                      'Origin: https://app.deriv.com',
+                  ])
+                  print(host, '-> CONNECTED')
+                  ws.close()
+              except Exception as e:
+                  print(host, '-> FAILED:', repr(e))
+          PYEOF
+          python3 /tmp/diag_ws.py
 
       - name: Run H4 scanner
         env:
