@@ -4,23 +4,6 @@
     {
       "pattern": "Confirmed Downtrend TL",
       "direction": "short",
-      "slope": -4.193548387097029e-05,
-      "touch_count": 3,
-      "status": "pending",
-      "source": "trendline",
-      "htf_bias": "unknown",
-      "confluence": [
-        "confirmed_tl",
-        "htf_unknown"
-      ],
-      "symbol": "EURUSD",
-      "staged_at": "2026-09-30T20:45:05.930790",
-      "confirmed": false,
-      "id": "EURUSD_Confirmed Downtrend TL_short_None"
-    },
-    {
-      "pattern": "Confirmed Downtrend TL",
-      "direction": "short",
       "slope": -0.0003563636363636395,
       "touch_count": 5,
       "status": "pending",
@@ -6119,7 +6102,7 @@
   "daily_pnl_pips": 0.0,
   "daily_trades": 0,
   "last_reset_date": "2026-10-01",
-  "updated_at": "2026-10-01T05:37:35.015282",
+  "updated_at": "2026-10-01T09:11:26.436643",
   "last_daily_report": "2026-09-30",
   "synthetic_streak": 16,
   "last_synthetic_alert": "2026-10-01"
