@@ -1,24 +1,6 @@
 {
   "active_trades": [],
-  "active_signals": [
-    {
-      "pattern": "Confirmed Uptrend TL",
-      "direction": "long",
-      "slope": 2.3249999999996886e-05,
-      "touch_count": 3,
-      "status": "pending",
-      "source": "trendline",
-      "htf_bias": "unknown",
-      "confluence": [
-        "confirmed_tl",
-        "htf_unknown"
-      ],
-      "symbol": "XAUUSD",
-      "staged_at": "2026-10-03T13:17:35.985469",
-      "confirmed": false,
-      "id": "XAUUSD_Confirmed Uptrend TL_long_None"
-    }
-  ],
+  "active_signals": [],
   "closed_today": [],
   "per_symbol": {
     "EURUSD": {
@@ -6282,8 +6264,8 @@
   "daily_pnl_pips": 0.0,
   "daily_trades": 0,
   "last_reset_date": "2026-10-03",
-  "updated_at": "2026-10-03T19:10:26.914182",
-  "last_daily_report": "2026-10-02",
+  "updated_at": "2026-10-03T21:54:40.302662",
+  "last_daily_report": "2026-10-03",
   "synthetic_streak": 24,
   "last_synthetic_alert": "2026-10-03"
 }
