@@ -143,3 +143,7 @@ timestamp,symbol,data_source,order_blocks,trendlines,confirmed_trendlines,signal
 2026-10-07T05:42:34.454171,GBPUSD,synthetic,45,2,0,0
 2026-10-07T05:42:45.147419,USDJPY,synthetic,55,2,0,0
 2026-10-07T05:42:55.746759,XAUUSD,synthetic,57,1,0,0
+2026-10-07T15:29:06.271814,EURUSD,synthetic,55,0,0,0
+2026-10-07T15:29:16.438258,GBPUSD,synthetic,58,1,0,0
+2026-10-07T15:29:27.558061,USDJPY,synthetic,43,1,0,0
+2026-10-07T15:29:37.718978,XAUUSD,synthetic,43,1,0,0
