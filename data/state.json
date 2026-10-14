@@ -4,23 +4,6 @@
     {
       "pattern": "Confirmed Uptrend TL",
       "direction": "long",
-      "slope": 0.00013941176470588136,
-      "touch_count": 4,
-      "status": "pending",
-      "source": "trendline",
-      "htf_bias": "bullish",
-      "confluence": [
-        "confirmed_tl",
-        "htf_bullish"
-      ],
-      "symbol": "GBPUSD",
-      "staged_at": "2026-10-14T13:36:05.974666",
-      "confirmed": false,
-      "id": "GBPUSD_Confirmed Uptrend TL_long_None"
-    },
-    {
-      "pattern": "Confirmed Uptrend TL",
-      "direction": "long",
       "slope": 0.0002683333333333519,
       "touch_count": 3,
       "status": "pending",
@@ -6481,8 +6464,8 @@
   "daily_pnl_pips": 0.0,
   "daily_trades": 0,
   "last_reset_date": "2026-10-14",
-  "updated_at": "2026-10-14T20:09:23.270382",
-  "last_daily_report": "2026-10-13",
+  "updated_at": "2026-10-14T22:26:41.581775",
+  "last_daily_report": "2026-10-14",
   "synthetic_streak": 60,
   "last_synthetic_alert": "2026-10-14"
 }
