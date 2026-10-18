@@ -1,24 +1,6 @@
 {
   "active_trades": [],
-  "active_signals": [
-    {
-      "pattern": "Confirmed Uptrend TL",
-      "direction": "long",
-      "slope": 0.00019625000000000892,
-      "touch_count": 4,
-      "status": "pending",
-      "source": "trendline",
-      "htf_bias": "bullish",
-      "confluence": [
-        "confirmed_tl",
-        "htf_bullish"
-      ],
-      "symbol": "EURUSD",
-      "staged_at": "2026-10-18T12:34:38.526229",
-      "confirmed": false,
-      "id": "EURUSD_Confirmed Uptrend TL_long_None"
-    }
-  ],
+  "active_signals": [],
   "closed_today": [],
   "per_symbol": {
     "EURUSD": {
@@ -6192,7 +6174,7 @@
   "daily_pnl_pips": 0.0,
   "daily_trades": 0,
   "last_reset_date": "2026-10-18",
-  "updated_at": "2026-10-18T18:35:04.031279",
+  "updated_at": "2026-10-18T19:07:08.152842",
   "last_daily_report": "2026-10-17",
   "synthetic_streak": 75,
   "last_synthetic_alert": "2026-10-18"
