@@ -2,23 +2,6 @@
   "active_trades": [],
   "active_signals": [
     {
-      "pattern": "Confirmed Downtrend TL",
-      "direction": "short",
-      "slope": -0.000320000000000024,
-      "touch_count": 3,
-      "status": "pending",
-      "source": "trendline",
-      "htf_bias": "bearish",
-      "confluence": [
-        "confirmed_tl",
-        "htf_bearish"
-      ],
-      "symbol": "XAUUSD",
-      "staged_at": "2026-10-19T15:31:22.612775",
-      "confirmed": false,
-      "id": "XAUUSD_Confirmed Downtrend TL_short_None"
-    },
-    {
       "pattern": "Confirmed Uptrend TL",
       "direction": "long",
       "slope": 0.0004911764705882269,
@@ -6267,8 +6250,8 @@
   "daily_pnl_pips": 0.0,
   "daily_trades": 0,
   "last_reset_date": "2026-10-19",
-  "updated_at": "2026-10-19T20:59:55.618839",
-  "last_daily_report": "2026-10-18",
+  "updated_at": "2026-10-19T23:13:48.045777",
+  "last_daily_report": "2026-10-19",
   "synthetic_streak": 79,
   "last_synthetic_alert": "2026-10-19"
 }
