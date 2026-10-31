@@ -1,41 +1,6 @@
 {
   "active_trades": [],
-  "active_signals": [
-    {
-      "pattern": "Confirmed Downtrend TL",
-      "direction": "short",
-      "slope": -0.00028250000000001885,
-      "touch_count": 3,
-      "status": "pending",
-      "source": "trendline",
-      "htf_bias": "bearish",
-      "confluence": [
-        "confirmed_tl",
-        "htf_bearish"
-      ],
-      "symbol": "EURUSD",
-      "staged_at": "2026-10-30T20:39:53.496911",
-      "confirmed": false,
-      "id": "EURUSD_Confirmed Downtrend TL_short_None"
-    },
-    {
-      "pattern": "Confirmed Uptrend TL",
-      "direction": "long",
-      "slope": 1.4000000000002898e-05,
-      "touch_count": 3,
-      "status": "pending",
-      "source": "trendline",
-      "htf_bias": "unknown",
-      "confluence": [
-        "confirmed_tl",
-        "htf_unknown"
-      ],
-      "symbol": "XAUUSD",
-      "staged_at": "2026-10-30T20:40:23.979642",
-      "confirmed": false,
-      "id": "XAUUSD_Confirmed Uptrend TL_long_None"
-    }
-  ],
+  "active_signals": [],
   "closed_today": [],
   "per_symbol": {
     "EURUSD": {
@@ -6334,7 +6299,7 @@
   "daily_pnl_pips": 0.0,
   "daily_trades": 0,
   "last_reset_date": "2026-10-31",
-  "updated_at": "2026-10-31T05:20:15.010789",
+  "updated_at": "2026-10-31T08:51:24.354066",
   "last_daily_report": "2026-10-30",
   "synthetic_streak": 119,
   "last_synthetic_alert": "2026-10-31"
