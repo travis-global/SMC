@@ -4,23 +4,6 @@
     {
       "pattern": "Confirmed Uptrend TL",
       "direction": "long",
-      "slope": 3.4883720930202896e-06,
-      "touch_count": 4,
-      "status": "pending",
-      "source": "trendline",
-      "htf_bias": "unknown",
-      "confluence": [
-        "confirmed_tl",
-        "htf_unknown"
-      ],
-      "symbol": "USDJPY",
-      "staged_at": "2026-11-06T06:21:31.049049",
-      "confirmed": false,
-      "id": "USDJPY_Confirmed Uptrend TL_long_None"
-    },
-    {
-      "pattern": "Confirmed Uptrend TL",
-      "direction": "long",
       "slope": 9.000000000014552e-06,
       "touch_count": 3,
       "status": "pending",
@@ -6584,7 +6567,7 @@
   "daily_pnl_pips": 0.0,
   "daily_trades": 0,
   "last_reset_date": "2026-11-06",
-  "updated_at": "2026-11-06T15:52:23.092408",
+  "updated_at": "2026-11-06T17:38:41.391650",
   "last_daily_report": "2026-11-05",
   "synthetic_streak": 138,
   "last_synthetic_alert": "2026-11-06"
