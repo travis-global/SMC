@@ -1,24 +1,6 @@
 {
   "active_trades": [],
-  "active_signals": [
-    {
-      "pattern": "Confirmed Uptrend TL",
-      "direction": "long",
-      "slope": 1.518518518518598e-05,
-      "touch_count": 5,
-      "status": "pending",
-      "source": "trendline",
-      "htf_bias": "unknown",
-      "confluence": [
-        "confirmed_tl",
-        "htf_unknown"
-      ],
-      "symbol": "USDJPY",
-      "staged_at": "2026-11-06T21:26:25.853164",
-      "confirmed": false,
-      "id": "USDJPY_Confirmed Uptrend TL_long_None"
-    }
-  ],
+  "active_signals": [],
   "closed_today": [],
   "per_symbol": {
     "EURUSD": {
@@ -5833,7 +5815,7 @@
   "daily_pnl_pips": 0.0,
   "daily_trades": 0,
   "last_reset_date": "2026-11-07",
-  "updated_at": "2026-11-07T05:46:21.650385",
+  "updated_at": "2026-11-07T08:42:47.234968",
   "last_daily_report": "2026-11-06",
   "synthetic_streak": 140,
   "last_synthetic_alert": "2026-11-07"
