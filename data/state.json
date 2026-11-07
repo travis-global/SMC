@@ -4,23 +4,6 @@
     {
       "pattern": "Confirmed Uptrend TL",
       "direction": "long",
-      "slope": 0.0004450000000000065,
-      "touch_count": 3,
-      "status": "pending",
-      "source": "trendline",
-      "htf_bias": "bullish",
-      "confluence": [
-        "confirmed_tl",
-        "htf_bullish"
-      ],
-      "symbol": "XAUUSD",
-      "staged_at": "2026-11-07T14:51:36.529391",
-      "confirmed": false,
-      "id": "XAUUSD_Confirmed Uptrend TL_long_None"
-    },
-    {
-      "pattern": "Confirmed Uptrend TL",
-      "direction": "long",
       "slope": 0.00012599999999998168,
       "touch_count": 6,
       "status": "pending",
@@ -6145,8 +6128,8 @@
   "daily_pnl_pips": 0.0,
   "daily_trades": 0,
   "last_reset_date": "2026-11-07",
-  "updated_at": "2026-11-07T20:08:40.212097",
-  "last_daily_report": "2026-11-06",
+  "updated_at": "2026-11-07T22:51:48.016315",
+  "last_daily_report": "2026-11-07",
   "synthetic_streak": 142,
   "last_synthetic_alert": "2026-11-07"
 }
