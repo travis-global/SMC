@@ -1,41 +1,6 @@
 {
   "active_trades": [],
-  "active_signals": [
-    {
-      "pattern": "Confirmed Uptrend TL",
-      "direction": "long",
-      "slope": 0.00022499999999998633,
-      "touch_count": 5,
-      "status": "pending",
-      "source": "trendline",
-      "htf_bias": "unknown",
-      "confluence": [
-        "confirmed_tl",
-        "htf_unknown"
-      ],
-      "symbol": "GBPUSD",
-      "staged_at": "2026-11-26T13:44:37.107630",
-      "confirmed": false,
-      "id": "GBPUSD_Confirmed Uptrend TL_long_None"
-    },
-    {
-      "pattern": "Confirmed Downtrend TL",
-      "direction": "short",
-      "slope": -0.00016222222222222408,
-      "touch_count": 3,
-      "status": "pending",
-      "source": "trendline",
-      "htf_bias": "bearish",
-      "confluence": [
-        "confirmed_tl",
-        "htf_bearish"
-      ],
-      "symbol": "USDJPY",
-      "staged_at": "2026-11-26T13:44:47.487108",
-      "confirmed": false,
-      "id": "USDJPY_Confirmed Downtrend TL_short_None"
-    }
-  ],
+  "active_signals": [],
   "closed_today": [],
   "per_symbol": {
     "EURUSD": {
@@ -5747,7 +5712,7 @@
   "daily_pnl_pips": 0.0,
   "daily_trades": 0,
   "last_reset_date": "2026-11-26",
-  "updated_at": "2026-11-26T13:44:58.290418",
+  "updated_at": "2026-11-26T20:20:34.697009",
   "last_daily_report": "2026-11-23",
   "synthetic_streak": 190,
   "last_synthetic_alert": "2026-11-26"
